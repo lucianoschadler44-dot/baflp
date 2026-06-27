@@ -29,6 +29,8 @@ jobs:
           python3 tests/frontmatter_test.py
       - name: Render site
         run: quarto render
+      - name: Bind custom domain
+        run: cp website/CNAME build/_site/CNAME
       - name: Render PDF + DOCX + EPUB
         run: |
           quarto render --to pdf  || echo "pdf profile optional"
