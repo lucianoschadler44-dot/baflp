@@ -1,0 +1,17 @@
+# generated outputs
+build/_site/
+build/pdf/
+build/**/*.pdf
+**/_site/
+.quarto/
+*.docx
+*.epub
+dist/
+# api build output
+api/*.json
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/

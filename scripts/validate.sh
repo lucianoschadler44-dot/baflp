@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+python3 tests/structure_test.py
+python3 tests/frontmatter_test.py
+if command -v lychee >/dev/null 2>&1; then
+  lychee --config tools/lychee.toml './**/*.md' './**/*.qmd' || true
+else
+  echo "[BAFLP] lychee not installed locally; link check runs in CI."
+fi
+echo "[BAFLP] validation OK"

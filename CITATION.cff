@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: The Buenos Aires Framework for Artificial Legal Personhood (BAFLP)
+message: "If you use this Framework, please cite it."
+type: software
+authors:
+  - family-names: Schadler
+    given-names: Luciano
+    affiliation: Schadler Tech
+repository-code: "https://github.com/SCHADLER-ORG/baflp"
+url: "https://research.schadler.tech"
+abstract: >-
+  A permanent international research framework on the legal personhood of artificial
+  entities: ontology, taxonomy, concepts, model law, comparative law and a registry
+  reference architecture, built as versioned reusable knowledge objects.
+keywords:
+  - artificial legal personhood
+  - non-human corporation
+  - sociedad automatizada
+  - AI governance
+  - legal-tech
+license: CC-BY-4.0
+version: 0.1.0
+date-released: "2026-06-27"

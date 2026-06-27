@@ -1,0 +1,52 @@
+name: build-and-deploy
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+      - name: Set up TinyTeX (for PDF)
+        run: quarto install tinytex --no-prompt
+      - name: Validate repository
+        run: |
+          python3 tests/structure_test.py
+          python3 tests/frontmatter_test.py
+      - name: Render site
+        run: quarto render
+      - name: Render PDF + DOCX + EPUB
+        run: |
+          quarto render --to pdf  || echo "pdf profile optional"
+          quarto render --to docx || echo "docx profile optional"
+          quarto render --to epub || echo "epub profile optional"
+      - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/_site
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

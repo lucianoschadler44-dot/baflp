@@ -1,0 +1,28 @@
+name: release
+on:
+  push:
+    tags: [ "v*.*.*" ]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - run: quarto install tinytex --no-prompt
+      - name: Build all formats
+        run: |
+          quarto render
+          quarto render --to pdf  || true
+          quarto render --to epub || true
+      - name: Package
+        run: |
+          mkdir -p dist
+          tar -czf dist/baflp-${GITHUB_REF_NAME}-site.tar.gz -C build/_site .
+          ( cd dist && sha256sum * > SHA256SUMS.txt )
+      - name: GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*
+          generate_release_notes: true

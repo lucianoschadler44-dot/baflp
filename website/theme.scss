@@ -1,0 +1,8 @@
+/*-- scss:defaults --*/
+// Minimal, institutional, timeless. Adjust tokens here; do not hardcode colors in content.
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$primary: #1f2a44;          // deep institutional navy
+$body-color: #1c1c1c;
+$link-color: #284b8c;
+/*-- scss:rules --*/
+.navbar { border-bottom: 1px solid #e6e6e6; }

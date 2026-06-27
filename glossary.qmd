@@ -1,0 +1,8 @@
+---
+title: "Glossary"
+---
+
+The glossary is generated from the `summary:` field of each knowledge object in
+`core/concepts/`. It is intentionally empty until concepts are populated through the RFC process.
+
+<!-- BUILD: auto-generated from core/concepts/*.md frontmatter by scripts/build.sh -->

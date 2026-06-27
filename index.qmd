@@ -1,0 +1,17 @@
+---
+title: "The Buenos Aires Framework for Artificial Legal Personhood"
+subtitle: "A permanent international research framework"
+---
+
+The Framework engineers durable, auditable answers to the questions raised when legal systems
+begin to recognise **artificial legal persons** — entities with legal personality that are
+operated by artificial intelligence.
+
+This site is a generated visualization of the [repository](https://github.com/SCHADLER-ORG/baflp),
+which is the single source of truth. Start with the **Concepts** — each is a reusable knowledge
+object referenced throughout the Framework.
+
+::: callout-note
+Infrastructure status: bootstrap complete. Legal content is authored by the Chief Research
+Architect through the RFC process and is published here as it is approved.
+:::

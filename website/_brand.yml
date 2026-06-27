@@ -1,0 +1,6 @@
+# Brand tokens consumed by the site (and exportable to PDF templates later).
+color:
+  primary: "#1f2a44"
+  link: "#284b8c"
+typography:
+  base: "Inter"

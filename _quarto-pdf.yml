@@ -1,0 +1,6 @@
+# Convenience profile so `quarto render --profile pdf` emits the compiled framework PDF.
+project:
+  output-dir: build/pdf
+format:
+  pdf:
+    documentclass: scrreprt

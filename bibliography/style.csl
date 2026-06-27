@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder CSL. Replace with a chosen academic style (e.g. APA/Chicago) via PR.
+     Quarto falls back to a default if this is not a full CSL; kept here to pin the path. -->
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
+  <info><title>BAFLP Placeholder</title><id>baflp-placeholder</id><updated>2026-06-27T00:00:00+00:00</updated></info>
+  <citation><layout><text variable="title"/></layout></citation>
+  <bibliography><layout><text variable="title"/></layout></bibliography>
+</style>

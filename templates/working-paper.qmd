@@ -1,0 +1,15 @@
+---
+title: "Working Paper Title"
+subtitle: "BAFLP Working Paper WP-XXXX"
+date: 2026-06-27
+author:
+  - name:
+abstract: |
+  (pending)
+bibliography: ../../bibliography/references.bib
+number-sections: true
+---
+
+# Introduction
+
+This paper references canonical concepts; it does not redefine them.

@@ -1,0 +1,16 @@
+name: link-check
+on:
+  pull_request:
+  schedule:
+    - cron: "0 6 * * 1"   # weekly Monday 06:00 UTC
+  workflow_dispatch:
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config tools/lychee.toml --no-progress './**/*.md' './**/*.qmd'
+          fail: true

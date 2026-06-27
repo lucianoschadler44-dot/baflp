@@ -1,0 +1,7 @@
+title: ""
+labels: []
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic

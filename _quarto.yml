@@ -1,0 +1,69 @@
+project:
+  type: website
+  output-dir: build/_site
+  render:
+    - "index.qmd"
+    - "core/**/*.qmd"
+    - "core/**/*.md"
+    - "research/**/*.qmd"
+    - "comparative-law/**/*.md"
+    - "model-law/**/*.md"
+    - "docs/**/*.md"
+    - "glossary.qmd"
+    - "!translations/**"
+    - "!archive/**"
+    - "!build/**"
+
+website:
+  title: "BAFLP"
+  description: "The Buenos Aires Framework for Artificial Legal Personhood"
+  site-url: "https://research.schadler.tech"
+  reader-mode: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    background: light
+    pinned: true
+    left:
+      - text: "Concepts"
+        href: core/concepts/README.md
+      - text: "Model Law"
+        href: model-law/README.md
+      - text: "Comparative Law"
+        href: comparative-law/README.md
+      - text: "Research"
+        href: research/README.md
+      - text: "Glossary"
+        href: glossary.qmd
+      - text: "Roadmap"
+        href: docs/ROADMAP.md
+    right:
+      - icon: github
+        href: "https://github.com/SCHADLER-ORG/baflp"
+  page-footer:
+    left: "BAFLP — CC BY 4.0 (content) · MIT (code)"
+    right: "Desenvolvido por Schadler Tech · Schadler.Tech.IA@gmail.com · (45) 99113-3461"
+
+bibliography: bibliography/references.bib
+csl: bibliography/style.csl
+
+format:
+  html:
+    theme:
+      - cosmo
+      - website/theme.scss
+    toc: true
+    code-copy: true
+    citations-hover: true
+  # Profiles below enable: quarto render --to pdf|docx|epub
+  pdf:
+    documentclass: scrreprt
+    toc: true
+    number-sections: true
+    keep-tex: false
+  docx:
+    toc: true
+    number-sections: true
+  epub:
+    toc: true
