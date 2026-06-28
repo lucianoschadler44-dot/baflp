@@ -3,7 +3,7 @@ max_concurrency = 8
 retry_wait_time = 2
 timeout = 20
 exclude = [
-  "https://github.com/SCHADLER-ORG/baflp",   # repo may be private during bootstrap
+  "https://github.com/lucianoschadler44-dot/baflp",   # repo may be private during bootstrap
   "https://research.schadler.tech",           # not yet deployed
 ]
 exclude_path = ["archive", "build"]
