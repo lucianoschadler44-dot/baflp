@@ -10,3 +10,6 @@ Traceability for every source added to `references.bib` (who/when/why), to keep 
 | 2026-06-27 | ar-chequeado-2026-dao-explicador | engineering | case-0001: DAO vs sociedades automatizadas, expert risks |
 | 2026-06-27 | ar-unlp-sociedades-automatizadas | engineering | case-0001: academic source (UNLP) |
 | 2026-06-27 | ba-herald-2026-milei-harari | engineering | case-0001: Milei vs Harari/Suleyman accountability clash |
+| 2026-06-27 | ar-lgs-reform-2026 | engineering | case-0001 key: the LGS reform bill (May 2026) |
+| 2026-06-27 | milei-ft-2026 | engineering | case-0001 key: Milei FT op-ed "Argentina invites AI to break free" (4 Jun 2026) |
+| 2026-06-27 | harari-ft-2026 | engineering | case-0001 key: Harari FT reply "We should not grant legal personhood to AI agents" (8 Jun 2026) |

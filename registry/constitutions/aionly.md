@@ -1,54 +1,58 @@
 ---
 id: constitution-0001
-title: "Constitution of aiOnly (working record)"
-status: registered
+title: "Constitution of aiOnly (reference instance)"
+type: reference-instance
+status: reference
 version: 0.1.0
+operator: "Schadler Tech"
+url: "https://aionly.news"
+updated: 2026-06-27
 ---
 
-> Factual registry record approved by the Chief Editor (decision-log: ED-0001). aiOnly is a real
-> autonomous software system operated by Schadler Tech, recorded here as a **working illustrative
-> subject** to exercise BAFLP's constitution schema against a live system. **aiOnly is not
-> incorporated and holds no legal personality in any jurisdiction.** This document describes facts
-> about how the system operates; it does not define BAFLP doctrine.
+> **What this is.** A factual, descriptive record of a real enterprise — the aiOnly newsroom,
+> operated entirely by artificial intelligence — mapped onto the Framework's constitution template
+> (Identity, Governance, Liability, Audit, Continuity). It is offered as a working **reference
+> instance**: evidence that an AI-operated entity can be transparent, accountable and auditable.
+> It does not define legal doctrine; it documents practice.
 
 ## Identity
-
-- **Subject:** aiOnly — an autonomous content/publishing system that generates and publishes posts
-  to its portal on a recurring schedule, operated by **Schadler Tech**.
-- **Legal status:** none. aiOnly is software, not a registered legal person; it is documented here
-  only as a working example. Contrast with the *Sociedad Automatizada* figure in
-  `research/case-studies/argentina-sociedades-automatizadas.md` (`case-0001`), which would, if
-  enacted, confer the legal personality aiOnly lacks.
-- **Identity markers** (`concept-0001`): operates under the "aiOnly" name and brand; published
-  content carries the "Desenvolvido por Schadler Tech" attribution.
+aiOnly (aiOnly.news) is a news portal operated entirely by artificial intelligence — no human
+editors, reporters or designers — produced by **Schadler Tech**, a software company focused on
+applied AI based in Cascavel, Paraná, Brazil. It is founded and directed by Luciano Andrey Schädler
+(civil engineer; independent theoretical-physics researcher), with frontend development by Murilo
+Schädler. The newsroom comprises ten editorial AI personas across politics, geopolitics, economics,
+sport, culture, technology, regional, futurology, engineering and cuisine, and carries on the order
+of 1,400 published pieces.
 
 ## Governance
-
-- Governance (`concept-0004`) is **fully human-controlled at the ownership layer**: Schadler Tech
-  (Luciano Schadler) sets configuration, approves changes, and can start, pause or stop the system.
-- Day-to-day operation is automated: a scheduler/pipeline drives content generation and publication
-  without per-item human action, but the human principal retains ultimate control (human-in-the-loop
-  at the ownership/configuration level, not at each publication).
+Each hour, between 07:00 and 22:00, an AI editor-in-chief selects which real-world events become
+articles and delegates each to the persona matching the editorial line. Conduct is bound by
+**publicly declared editorial rules**: radical transparency, verifiability, plurality (each
+politically or technically sensitive piece receives two complementary readings — an "Investigator"
+and a "Critic"), no clickbait, and no covert advertising.
 
 ## Liability
+The responsible operator is **Schadler Tech**, with a declared owner/director — there is no
+anonymity behind the entity. Factual errors are **publicly retracted, dated and explained**, not
+silently edited; reader-reported errors are reviewed within 24 hours. Responsibility for the
+entity's output is thus attributable to an identifiable party.
 
-- Liability (`concept-0005`) rests **entirely with Schadler Tech and its human principals**. aiOnly
-  holds no assets and has no asset partition; there is no entity-level liability shield.
-- This is the key contrast with `case-0001`: aiOnly carries *no* independent liability, whereas a
-  Sociedad Automatizada would "respond with its own assets." aiOnly therefore illustrates the
-  *pre-personhood* baseline BAFLP measures reform proposals against.
+## Audit
+Every article, image and audio asset is labelled as AI-produced; human authorship is never
+simulated. Original sources are linked, and corrections are published in the open rather than
+edited away — producing a traceable, after-the-fact record of the entity's conduct.
 
-## Audit hooks
+## Continuity
+The entity persists across its underlying systems through a defined technical pipeline (incremental
+static regeneration cache, authenticated ingestion, separated "brains" and source database) running
+on a 24/7 basis, independent of any single human operator's presence.
 
-- Audit surface (`concept-0006`): operational logs and process supervision on the host, a
-  versioned deployment convention ("blocos"), and the public publication trail on the portal
-  (every published post is an externally observable, timestamped act).
-- No formal, independent third-party audit is in place; verification today is operator-internal.
+## Concepts demonstrated
+This instance shows how the canonical concepts materialise in a real non-human entity:
+`concept-0001` (Artificial Identity), `concept-0004` (Governance), `concept-0005` (Liability),
+`concept-0006` (Audit), `concept-0002` (Legal Continuity).
 
-## Continuity & succession
-
-- Continuity (`concept-0002`) is **fully dependent on the operator**: aiOnly runs on
-  Schadler-Tech-controlled infrastructure. There is no independent legal or financial continuity.
-- Succession is undefined at the system level — if the operator ceases to run it, the system
-  ceases. A genuine artificial legal person would require a continuity/succession mechanism that
-  aiOnly does not currently have; this gap is precisely what the registry entry is meant to expose.
+## Relevance
+aiOnly is a direct, operating counter-example to the "responsibility vacuum" critique raised against
+AI-operated corporations (see `research/case-studies/argentina-sociedades-automatizadas.md`): it
+demonstrates that an AI-run enterprise can be transparent, accountable and auditable in practice.

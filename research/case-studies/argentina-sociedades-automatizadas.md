@@ -1,85 +1,85 @@
 ---
 id: case-0001
-title: "Argentina — 'Sociedades Automatizadas' and the legal personhood of AI-run companies"
-jurisdiction: Argentina
+title: "Argentina — Sociedades Automatizadas and the Corporación No Humana"
+jurisdiction: AR
 status: draft
+authority: factual-record
 references:
-  - ar-lanacion-2026-ley-sociedades
-  - ar-infobae-2026-sociedades-ia
-  - ar-perfil-2026-ley-sociedades
-  - ar-chequeado-2026-dao-explicador
-  - ar-unlp-sociedades-automatizadas
-  - ba-herald-2026-milei-harari
+  - ar-lgs-reform-2026
+  - milei-ft-2026
+  - harari-ft-2026
 updated: 2026-06-27
 ---
 
-> Factual case record approved by the Chief Editor (decision-log: ED-0001). This document
-> reports a real-world legislative debate; it does **not** define BAFLP doctrine. Concepts are
-> engaged by reference to their canonical ids — their meaning is fixed only in `core/concepts/`
-> through accepted RFCs.
-
 ## Context
 
-Argentina's company law is built on the *Ley General de Sociedades* (LGS, Ley 19.550) and, since
-2017, the lightweight *Sociedad por Acciones Simplificada* (SAS, Ley 27.349). Both presuppose
-human members behind the legal person. The reform debated in 2026 tests whether that presupposition
-can be dropped — i.e. whether an entity operated entirely by algorithms or AI agents can itself hold
-full legal personality. This is the canonical real-world stress test the Framework was built to
-analyse (see `research/case-studies/README.md`).
+In 2026 Argentina became the first jurisdiction to formally propose granting legal personality to
+entities operated entirely by artificial intelligence. This case is the founding real-world test of
+the Framework: it isolates, in live legislation and public debate, the exact gaps the BAFLP exists
+to engineer durable answers for — identity, continuity, registry, governance, liability and audit.
 
-## What happened
+This document is a **factual record**. It does not advance doctrine. Analytical questions are listed
+for the Chief Research Architect to resolve through the RFC process.
 
-- In **May 2026** the national government (Milei administration) submitted to Congress a bill
-  reforming the company-law regime, introducing two new figures: **Sociedades Automatizadas**
-  (automated companies) and **Organizaciones Autónomas Descentralizadas / DAOs**.
-- A **Sociedad Automatizada** is defined as a company that develops its corporate purpose through
-  autonomous algorithmic systems or AI agents, **without requiring employees** for ordinary
-  operation. The proposal grants it full legal personality, capacity to act with third parties, and
-  limited liability — **responding with its own assets** for damages caused by its autonomous
-  systems.
-- Formal requirements reported for the figure: the **declaration of automation must appear in the
-  statute**, and the company **name must include the word "Automatizada."**
-- **DAOs** are treated as a distinct figure: rules codified in smart contracts and registered on
-  blockchain, with power distributed among token holders — contrasted with the centralised
-  algorithmic control of a Sociedad Automatizada.
-- The proposal triggered a high-profile public clash: President **Javier Milei** (who had argued in
-  a *Financial Times* column for an AI framework without prior regulation) versus historian
-  **Yuval Noah Harari** and Microsoft AI CEO **Mustafa Suleyman**, who warned that granting legal
-  personhood to autonomous algorithms without a human in the loop erodes accountability — "you
-  cannot jail an AI." Milei replied that legal personhood for AI agents is "not launching the
-  Judgment Day of Terminator."
-- **As of June 2026 the bill is under congressional debate**; this record is a living document to be
-  updated as the case develops (enactment, amendments, regulatory decrees, first registered entity).
+## What happened (timeline)
+
+- **Late May 2026** — The Argentine Executive sent Congress a reform of the *Ley General de
+  Sociedades* (a 1972 statute), introducing two new corporate figures.
+- **Sociedad Automatizada (Art. 14)** — A company that pursues its corporate purpose through
+  autonomous algorithmic systems or AI agents, without employees in a dependency relationship; the
+  company answers for damages caused by those systems with its own assets.
+- **Corporación no humana** — An entity managed by AI agents or robots, endowed with legal
+  personality and limited liability; human shareholders are permitted but not required.
+- The bill also recognises **DAOs** (decentralised autonomous organisations) with legal personality
+  and limited liability, and sets a competitive tax regime with freedom to choose the applicable
+  corporate-governance law, while requiring disclosure of ultimate beneficial owners.
+- **4 June 2026** — President Milei published a Financial Times column, *"Argentina invites AI to
+  free itself"* (co-signed by Minister Sturzenegger), framing the proposal through the 1602 Dutch
+  East India Company as the origin of limited liability, and pledging the world's most attractive
+  legal and fiscal framework for the sector; he cast Buenos Aires as a new Amsterdam for AI.
+- **7 June 2026** — Historian Yuval Noah Harari replied in the Financial Times, warning that
+  corporate legal personality for AI is a "master key" that could let AI agents enter financial,
+  economic and political systems, and that Buenos Aires risks becoming a "Batavia" rather than an
+  Amsterdam.
+- **Mid-June 2026** — Milei answered (invoking Asimov), arguing that granting an AI company legal
+  personality is not unleashing a Terminator scenario and that, if AI firms carry greater risk, the
+  case for legal personality is strengthened because they become more regulated.
+- The reform is paired with a "Súper RIGI" investment regime aimed at data centres and AI
+  infrastructure. In parallel, the City of Buenos Aires created an AI District in the microcentro
+  (March 2026), and Argentina adhered to the US-led "Pax Silica" AI supply-chain initiative
+  (26 June 2026).
+
+## The core tension
+
+Critics centre on a **responsibility vacuum**: an autonomous entity that can act and cause harm while
+no identifiable human is liable, and whose beneficiaries may be hard to trace — summarised by one
+specialist as "the robbery without the robber." This is precisely the failure mode the Framework's
+liability, registry and audit concepts are meant to close.
 
 ## Concepts engaged
 
-This case touches the following canonical concepts (definitions pending in `core/concepts/`):
+This case references canonical knowledge objects without redefining them:
 
-- **Artificial Identity** (`concept-0001`) — the mandatory "Automatizada" naming and the statutory
-  declaration of automation as identity markers.
-- **Artificial Registry** (`concept-0003`) — registration of an automated entity in the companies
-  registry; the blockchain-as-registry question raised by the DAO figure.
-- **Governance** (`concept-0004`) — corporate purpose executed by autonomous algorithmic systems
-  with no mandatory human in the loop.
-- **Liability** (`concept-0005`) — the bill's core mechanism: the entity responds with its own
-  assets; the Harari/Suleyman accountability critique.
-- **Legal Continuity** (`concept-0002`) — an entity with no employees and algorithmic operation
-  raises questions of persistence, dissolution and succession.
-- **Audit** (`concept-0006`) — what verification of the autonomous systems is required before and
-  during the entity's life.
+- **Liability** (`concept-0005`) — how responsibility for acts and harms is allocated when no human
+  operator stands behind the entity.
+- **Artificial Registry** (`concept-0003`) — how ultimate beneficiaries and entity status are made
+  traceable and authoritative.
+- **Governance** (`concept-0004`) — how decisions are made, constrained and attributed inside an
+  AI-operated company.
+- **Audit** (`concept-0006`) — how the conduct of such an entity is made inspectable.
+- **Artificial Identity** (`concept-0001`) and **Legal Continuity** (`concept-0002`) — how the
+  entity is uniquely identified and persists across changes in its underlying systems.
 
-## Analysis
+## Open questions (for the Chief Research Architect / RFC)
 
-(pending — analysis of how BAFLP's model law would treat this case is authored only through an
-accepted RFC; this section is intentionally left as a sourced factual record, not doctrine.)
+1. How can liability be allocated without breaking the causal chain to a responsible party?
+2. What registry and identity guarantees make the ultimate beneficiary traceable in practice?
+3. What audit hooks render an autonomous entity's conduct inspectable after the fact?
 
-## Open questions
+> Doctrine answering these questions is authored only through an accepted RFC (`core/rfcs/`).
 
-1. Does "responds with its own assets" create a genuine liability shield, or merely relocate
-   liability to the entity's capital while leaving principals reachable (piercing)?
-2. Where is the human in the loop located — at incorporation, at governance, or nowhere — and does
-   the statute fix accountability for harms caused autonomously?
-3. How does the registry verify and audit the "autonomous algorithmic system" at registration, and
-   on what cadence thereafter (`concept-0003`, `concept-0006`)?
-4. Is the Sociedad Automatizada / DAO distinction durable, or do hybrid forms collapse it?
-5. How would BAFLP's model law classify this figure relative to its own taxonomy? (RFC required.)
+## A reference counter-example
+
+A live, operating AI-run enterprise that already embodies transparency, verifiability, a declared
+responsible owner and public error correction is documented as the Framework's first constitution
+instance: see `registry/constitutions/aionly.md`.
