@@ -15,9 +15,9 @@ identity, continuity, registry, governance, liability and audit.
 
 | I am a… | Start here |
 |---|---|
-| **Citizen** — plain language, examples, no jargon | [Learning Center — Level 1](public-experience/learning-center/README.md) |
-| **Professional** — lawyer, engineer, entrepreneur, public manager | [Executive Center](public-experience/executive-center/README.md) · [Concepts](core/concepts/README.md) |
-| **Researcher / Legislator** — full theory, sources, model law | [Concepts](core/concepts/README.md) · [Model Law](model-law/README.md) · [Observatory](observatory/README.md) |
+| **Citizen** — plain language, examples, no jargon | [Learning Center — Level 1](public-experience/learning-center/index.qmd) |
+| **Professional** — lawyer, engineer, entrepreneur, public manager | [Executive Center](public-experience/executive-center/index.qmd) · [Concepts](core/concepts/index.qmd) |
+| **Researcher / Legislator** — full theory, sources, model law | [Concepts](core/concepts/index.qmd) · [Model Law](model-law/index.qmd) · [Observatory](observatory/index.qmd) |
 
 ## The six layers of the platform
 

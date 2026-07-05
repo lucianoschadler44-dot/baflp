@@ -5,6 +5,12 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-07-05
+### Added
+- AI-readability layer: llms.txt + llms-full.txt (llmstxt.org), "AI" portal page with ready prompts (PT/ES/EN), Open Graph/Twitter cards, GitHub topics.
+### Fixed
+- Folder index convergence + generated glossary page (if pending).
+
 ## [0.2.3] - 2026-07-05
 ### Fixed
 - Site render: canonical directory render list; slim site workflow (no TinyTeX/PDF in Pages build) + artifact sanity check.

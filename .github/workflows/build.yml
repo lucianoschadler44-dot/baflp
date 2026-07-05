@@ -27,14 +27,16 @@ jobs:
           python3 tests/frontmatter_test.py
           python3 tests/yaml_empty_test.py
       - name: Render site
-        run: quarto render
+        run: python3 scripts/llms-build.py && quarto render
       - name: Bind custom domain
         run: cp website/CNAME build/_site/CNAME
       - name: Sanity check output
         run: |
           test -f build/_site/index.html
+          test -f build/_site/llms-full.txt
           test -f build/_site/public-experience/press-room/brief-5min-es-AR.html
           test -f build/_site/public-experience/decision-simulator/simulator.html
+          test -f build/_site/core/concepts/index.html
           echo "sanity OK: paginas-chave presentes no artefato"
       - name: Upload Pages artifact
         if: github.ref == 'refs/heads/main'

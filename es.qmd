@@ -9,9 +9,9 @@ derecho reconoce **personas jurídicas artificiales** — entidades con personal
 por inteligencia artificial: identidad, continuidad, registro, gobernanza, responsabilidad y
 auditoría.
 
-**Elegí tu puerta:** [Ciudadano](public-experience/learning-center/README.md) ·
-[Profesional](public-experience/executive-center/README.md) ·
-[Investigador / Legislador](core/concepts/README.md)
+**Elegí tu puerta:** [Ciudadano](public-experience/learning-center/index.qmd) ·
+[Profesional](public-experience/executive-center/index.qmd) ·
+[Investigador / Legislador](core/concepts/index.qmd)
 
 **En vivo desde el Observatorio — Argentina 2026:** la primera jurisdicción en proponer formalmente
 personalidad jurídica para empresas operadas por IA (*sociedades automatizadas*, *corporación no

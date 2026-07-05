@@ -18,7 +18,7 @@ ever deleted.
 ## Governance
 Founded and edited by **Luciano Schadler** (Chief Editor, final authority). Conceptual doctrine is
 authored through an open **RFC process**; engineering decisions are recorded as
-**[ADRs](core/adrs/README.md)**. See the [decision log](governance/decision-log.md) and
+**[ADRs](core/adrs/index.qmd)**. See the [decision log](governance/decision-log.md) and
 [authority map](governance/AUTHORITY.md).
 
 ## Operator

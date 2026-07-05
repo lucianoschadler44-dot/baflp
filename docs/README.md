@@ -1,4 +1,4 @@
-# docs
+# Documentation
 
 > Part of **BAFLP** — The Buenos Aires Framework for Artificial Legal Personhood.
 > This README is mandatory metadata. Do not delete.

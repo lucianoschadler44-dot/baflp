@@ -1,4 +1,4 @@
-# institution
+# Institution
 
 > Part of **BAFLP** — layer scaffolding created by ADR-0001 Phase 1.
 

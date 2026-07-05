@@ -1,0 +1,26 @@
+# BAFLP — The Buenos Aires Framework for Artificial Legal Personhood
+
+> Permanent international research platform on the legal personhood of AI-operated entities: identity, continuity, registry, governance, liability, audit. Canonical repo: https://github.com/lucianoschadler44-dot/baflp — Site: https://lucianoschadler44-dot.github.io/baflp/
+
+## Read everything at once
+- [Full framework in one file](https://lucianoschadler44-dot.github.io/baflp/llms-full.txt)
+
+## Concepts
+- [Artificial Identity](https://raw.githubusercontent.com/lucianoschadler44-dot/baflp/main/core/concepts/artificial-identity.md)
+- [Artificial Registry](https://raw.githubusercontent.com/lucianoschadler44-dot/baflp/main/core/concepts/artificial-registry.md)
+- [Audit](https://raw.githubusercontent.com/lucianoschadler44-dot/baflp/main/core/concepts/audit.md)
+- [Governance](https://raw.githubusercontent.com/lucianoschadler44-dot/baflp/main/core/concepts/governance.md)
+- [Legal Continuity](https://raw.githubusercontent.com/lucianoschadler44-dot/baflp/main/core/concepts/legal-continuity.md)
+- [Liability](https://raw.githubusercontent.com/lucianoschadler44-dot/baflp/main/core/concepts/liability.md)
+
+## Case studies
+- [Argentina — argentina-sociedades-automatizadas](https://raw.githubusercontent.com/lucianoschadler44-dot/baflp/main/observatory/argentina/case-studies/argentina-sociedades-automatizadas.md)
+
+## Executive briefs (EN/es-AR/pt-BR)
+- [brief-5min-en](https://raw.githubusercontent.com/lucianoschadler44-dot/baflp/main/public-experience/press-room/brief-5min-en.md)
+- [brief-5min-es-AR](https://raw.githubusercontent.com/lucianoschadler44-dot/baflp/main/public-experience/press-room/brief-5min-es-AR.md)
+- [brief-5min-pt-BR](https://raw.githubusercontent.com/lucianoschadler44-dot/baflp/main/public-experience/press-room/brief-5min-pt-BR.md)
+
+## Governance & reference instance
+- [aionly](https://raw.githubusercontent.com/lucianoschadler44-dot/baflp/main/registry/constitutions/aionly.md)
+- [AUTHORITY](https://raw.githubusercontent.com/lucianoschadler44-dot/baflp/main/governance/AUTHORITY.md)
