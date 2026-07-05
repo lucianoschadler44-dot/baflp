@@ -1,5 +1,5 @@
 
-> Automated compilation — 2026-07-05. Axioms are fixed by the Framework; majority positions enter only with quorum (≥10 votes). One GitHub account = one vote; every ballot is public and auditable.
+> Automated compilation — 2026-07-05. Ballots: 👍 yes · 👎 no · 😕 depends. Quorum ≥10 votes; comments counted as qualitative input. Every ballot is public and auditable.
 
 ## I. Non-negotiable axioms
 
@@ -24,41 +24,62 @@
 ## II. Positions under public consultation
 
 **Q01.** Should an AI-operated company be allowed to exist with NO human owner or shareholder at all?
-<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/13)
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/13)
 
 **Q02.** Should fines and penalties fall on the AI entity's own assets, and not only on its human operator?
-<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/14)
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/14)
 
 **Q03.** Should courts be able to order the compulsory shutdown (dissolution) of a repeat-offender AI entity?
-<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/15)
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/15)
 
 **Q04.** Should AI-operated companies pay exactly the same taxes as human-run companies?
-<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/16)
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/16)
 
 **Q05.** Should an AI entity be able to OWN the copyright of what it creates?
-<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/17)
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/17)
 
 **Q06.** Should an AI entity be allowed to hire and fire human employees?
-<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/18)
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/18)
 
 **Q07.** Should an AI entity be allowed to own shares in human companies?
-<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/19)
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/19)
 
 **Q08.** Should the decision logs of AI entities be public by default (not only visible to authorities)?
-<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/20)
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/20)
 
 **Q09.** Should there be a legal cap on how much wealth an AI entity can accumulate?
-<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/21)
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/21)
 
 **Q10.** Should AI entities be allowed to donate to political campaigns?
-<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/22)
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/22)
 
 **Q11.** Should an AI entity be allowed to represent itself in court, without a human lawyer?
-<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/23)
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/23)
 
 **Q12.** When an AI entity is dissolved, should IT be able to define the destiny of its own assets (a digital testament)?
-<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/24)
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/24)
+
+**Q13.** Should AI-operated entities be required to carry liability insurance before operating?
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/26)
+
+**Q14.** Beyond civil fines, should an AI entity have its own record of offenses (criminal-style accountability)?
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/27)
+
+**Q15.** Should AI entities be allowed to own land and real estate?
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/28)
+
+**Q16.** Should legal personhood granted to an AI entity in one country be automatically recognized in others?
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/29)
+
+**Q17.** Should governments be allowed to award public contracts to AI-operated companies?
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/30)
+
+**Q18.** Should a human-controlled emergency stop (kill switch) be mandatory for every AI entity?
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/31)
+
+**Q19.** Should a human be allowed to leave inheritance (bequests) to an AI entity?
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/32)
 
 ## III. Method
 
-This document is recompiled every day by an automated process inside the repository (GitHub Actions), from `manifesto/axioms.yaml` and the live ballots. History is preserved in git — every version of this Manifesto, forever.
+Recompiled daily by in-repo automation from `manifesto/axioms.yaml`, `manifesto/questions.yaml` and the live ballots. Full history preserved in git.

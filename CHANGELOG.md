@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-07-05
+### Added
+- Tri-state public ballots (yes/no/depends) with comment counting; consultation expanded to 20 trilingual questions; 3-segment live results.
+
 ## [0.4.1] - 2026-07-05
 ### Fixed
 - CI: Pages deployments now queue instead of cancelling; manifesto bot triggers site rebuild after committing.
