@@ -5,7 +5,6 @@ slug: audit
 version: 0.2.0
 status: draft
 complexity: beginner
-category:
 authority: chief-research-architect
 summary: >
   How the conduct of an artificial legal person is made inspectable and accountable.

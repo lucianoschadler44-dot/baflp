@@ -5,7 +5,6 @@ slug: legal-continuity
 version: 0.2.0
 status: draft
 complexity: intermediate
-category:
 authority: chief-research-architect
 summary: >
   How an artificial legal person persists across changes in its underlying systems.

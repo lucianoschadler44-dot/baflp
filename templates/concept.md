@@ -5,7 +5,7 @@ slug: concept-title
 version: 0.1.0
 status: draft                   # draft | review | accepted | superseded
 complexity: intermediate        # beginner | intermediate | advanced
-category:                       # taxonomy id
+# category: assign when taxonomy v0.1 exists
 authority: chief-research-architect
 summary: >                      # one sentence; feeds the auto-glossary
   (pending)

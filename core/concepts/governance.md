@@ -5,7 +5,6 @@ slug: governance
 version: 0.2.0
 status: draft
 complexity: intermediate
-category:
 authority: chief-research-architect
 summary: >
   How decisions are made, constrained and attributed within an artificial legal person.

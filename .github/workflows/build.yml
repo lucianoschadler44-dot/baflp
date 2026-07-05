@@ -27,6 +27,7 @@ jobs:
         run: |
           python3 tests/structure_test.py
           python3 tests/frontmatter_test.py
+          python3 tests/yaml_empty_test.py
       - name: Render site
         run: quarto render
       - name: Bind custom domain

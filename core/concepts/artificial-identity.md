@@ -5,7 +5,6 @@ slug: artificial-identity
 version: 0.2.0
 status: draft
 complexity: beginner
-category:
 authority: chief-research-architect
 summary: >
   How an artificial legal person is uniquely and persistently identified.

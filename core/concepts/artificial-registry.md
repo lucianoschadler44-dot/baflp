@@ -5,7 +5,6 @@ slug: artificial-registry
 version: 0.2.0
 status: draft
 complexity: beginner
-category:
 authority: chief-research-architect
 summary: >
   The authoritative record establishing the existence and status of artificial legal persons.

@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [0.2.2] - 2026-07-05
+### Fixed
+- CI: empty YAML frontmatter fields (category/author) removed; permanent yaml-empty test added to CI and validate.sh.
+
 ## [0.2.1] - 2026-07-05
 ### Fixed
 - CI: TinyTeX made non-blocking; removed placeholder CSL from the render pipeline.

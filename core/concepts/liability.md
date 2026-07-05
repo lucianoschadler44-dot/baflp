@@ -5,7 +5,6 @@ slug: liability
 version: 0.2.0
 status: draft
 complexity: intermediate
-category:
 authority: chief-research-architect
 summary: >
   How responsibility for acts and harms is allocated for an artificial legal person.
