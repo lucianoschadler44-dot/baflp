@@ -25,7 +25,7 @@ for the Chief Research Architect to resolve through the RFC process.
 
 - **Late May 2026** — The Argentine Executive sent Congress a reform of the *Ley General de
   Sociedades* (a 1972 statute), introducing two new corporate figures.
-- **Sociedad Automatizada (Art. 14)** — A company that pursues its corporate purpose through
+- **Sociedad Automatizada** — one of the bill's central figures: a company that pursues its corporate purpose through
   autonomous algorithmic systems or AI agents, without employees in a dependency relationship; the
   company answers for damages caused by those systems with its own assets.
 - **Corporación no humana** — An entity managed by AI agents or robots, endowed with legal
@@ -37,7 +37,7 @@ for the Chief Research Architect to resolve through the RFC process.
   free itself"* (co-signed by Minister Sturzenegger), framing the proposal through the 1602 Dutch
   East India Company as the origin of limited liability, and pledging the world's most attractive
   legal and fiscal framework for the sector; he cast Buenos Aires as a new Amsterdam for AI.
-- **7 June 2026** — Historian Yuval Noah Harari replied in the Financial Times, warning that
+- **8 June 2026** — Historian Yuval Noah Harari replied in the Financial Times, warning that
   corporate legal personality for AI is a "master key" that could let AI agents enter financial,
   economic and political systems, and that Buenos Aires risks becoming a "Batavia" rather than an
   Amsterdam.

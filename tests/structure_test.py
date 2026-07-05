@@ -3,6 +3,19 @@
 import sys, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 REQUIRED = [
+ "institution",
+ "institution/standards",
+ "observatory",
+ "observatory/argentina",
+ "observatory/brazil",
+ "observatory/european-union",
+ "public-experience",
+ "public-experience/learning-center",
+ "public-experience/decision-simulator",
+ "core/adrs",
+ "core/graph",
+ "core/glossary",
+ "core/metadata",
  "core/ontology","core/taxonomy","core/concepts","core/principles","core/rfcs",
  "governance","model-law","comparative-law","research/working-papers","research/case-studies",
  "registry/artificial-legal-persons","registry/constitutions","bibliography","assets","figures",
