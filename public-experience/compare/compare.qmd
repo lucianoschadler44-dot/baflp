@@ -1,0 +1,22 @@
+---
+title: "Compare Jurisdictions"
+subtitle: "Artificial legal personhood — where the world stands"
+toc: false
+---
+
+::: {.callout-note appearance="simple"}
+Only **Argentina** carries a verified, sourced case study so far. Other columns are Observatory
+monitoring placeholders and will populate as records are verified.
+:::
+
+| | **Argentina** | **Brazil** | **European Union** | **United States** |
+|---|---|---|---|---|
+| Formal legal-personhood proposal for AI-operated entities | **Yes** — 2026 executive bill: *sociedad automatizada* and *corporación no humana* | None identified — general AI regulatory framework under congressional debate | None active — a 2017 European Parliament resolution floated "electronic personhood"; shelved after expert opposition | None at federal level — scholarship debates whether existing LLC statutes could already host algorithm-operated entities |
+| Liability answer | Entity answers with its own assets | — | — | — |
+| Traceability / registry | Mandatory disclosure of ultimate beneficial owners | — | — | — |
+| Observatory record | [case-0001](../../observatory/argentina/case-studies/argentina-sociedades-automatizadas.md) | [folder](../../observatory/brazil/timeline.md) | [folder](../../observatory/european-union/timeline.md) | [folder](../../observatory/united-states/timeline.md) |
+| Status | **Verified case study** | Monitoring | Monitoring | Monitoring |
+
+*Concepts engaged across every jurisdiction: [Registry](../../core/concepts/artificial-registry.md) ·
+[Liability](../../core/concepts/liability.md) · [Governance](../../core/concepts/governance.md) ·
+[Audit](../../core/concepts/audit.md).*
