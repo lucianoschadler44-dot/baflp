@@ -56,7 +56,6 @@ website:
     right: "Desenvolvido por Schadler Tech · Schadler.Tech.IA@gmail.com · (45) 99113-3461"
 
 bibliography: bibliography/references.bib
-csl: bibliography/style.csl
 
 format:
   html:

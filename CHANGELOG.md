@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-07-05
+### Fixed
+- CI: TinyTeX made non-blocking; removed placeholder CSL from the render pipeline.
+
 ## [0.2.0] - 2026-06-28
 ### Added
 - Institutional portal (trilingual landing EN/ES/PT, About, generated Glossary).

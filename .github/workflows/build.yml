@@ -22,7 +22,7 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Set up TinyTeX (for PDF)
-        run: quarto install tinytex --no-prompt
+        run: quarto install tinytex --no-prompt || true
       - name: Validate repository
         run: |
           python3 tests/structure_test.py

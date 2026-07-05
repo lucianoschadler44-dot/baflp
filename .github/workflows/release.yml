@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: quarto-dev/quarto-actions/setup@v2
-      - run: quarto install tinytex --no-prompt
+      - run: quarto install tinytex --no-prompt || true
       - name: Build all formats
         run: |
           quarto render
