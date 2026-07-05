@@ -11,6 +11,7 @@ project:
     - "institution/**/*.md"
     - "observatory/**/*.md"
     - "public-experience/**/*.md"
+    - "public-experience/**/*.qmd"
     - "model-law/**/*.md"
     - "registry/**/*.md"
     - "research/**/*.md"
@@ -40,6 +41,10 @@ website:
         href: core/concepts/README.md
       - text: "Model Law"
         href: model-law/README.md
+      - text: "Simulator"
+        href: public-experience/decision-simulator/simulator.qmd
+      - text: "Compare"
+        href: public-experience/compare/compare.qmd
       - text: "Glossary"
         href: glossary.qmd
       - text: "About"

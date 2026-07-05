@@ -22,3 +22,5 @@ y la [instancia de referencia aiOnly](registry/constitutions/aionly.md) — una 
 *El inglés es el idioma maestro canónico; las definiciones se publican a medida que el proceso RFC
 las aprueba. Todo este portal se genera desde el
 [repositorio público](https://github.com/lucianoschadler44-dot/baflp).*
+
+**Brief ejecutivo (5 minutos):** [La personalidad jurídica artificial en 5 minutos](public-experience/press-room/brief-5min-es-AR.md) — pensado para legisladores, jueces y ministros.
