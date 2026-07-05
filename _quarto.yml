@@ -3,13 +3,21 @@ project:
   output-dir: build/_site
   render:
     - "index.qmd"
-    - "core/**/*.qmd"
-    - "core/**/*.md"
-    - "research/**/*.qmd"
-    - "comparative-law/**/*.md"
-    - "model-law/**/*.md"
-    - "docs/**/*.md"
+    - "es.qmd"
+    - "pt.qmd"
+    - "about.qmd"
     - "glossary.qmd"
+    - "core/**/*.md"
+    - "institution/**/*.md"
+    - "observatory/**/*.md"
+    - "public-experience/**/*.md"
+    - "model-law/**/*.md"
+    - "registry/**/*.md"
+    - "research/**/*.md"
+    - "governance/**/*.md"
+    - "docs/**/*.md"
+    - "!templates/**"
+    - "!examples/**"
     - "!translations/**"
     - "!archive/**"
     - "!build/**"
@@ -26,19 +34,21 @@ website:
     background: light
     pinned: true
     left:
+      - text: "Observatory"
+        href: observatory/README.md
       - text: "Concepts"
         href: core/concepts/README.md
       - text: "Model Law"
         href: model-law/README.md
-      - text: "Comparative Law"
-        href: comparative-law/README.md
-      - text: "Research"
-        href: research/README.md
       - text: "Glossary"
         href: glossary.qmd
-      - text: "Roadmap"
-        href: docs/ROADMAP.md
+      - text: "About"
+        href: about.qmd
     right:
+      - text: "ES"
+        href: es.qmd
+      - text: "PT"
+        href: pt.qmd
       - icon: github
         href: "https://github.com/lucianoschadler44-dot/baflp"
   page-footer:
@@ -56,14 +66,3 @@ format:
     toc: true
     code-copy: true
     citations-hover: true
-  # Profiles below enable: quarto render --to pdf|docx|epub
-  pdf:
-    documentclass: scrreprt
-    toc: true
-    number-sections: true
-    keep-tex: false
-  docx:
-    toc: true
-    number-sections: true
-  epub:
-    toc: true
