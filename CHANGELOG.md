@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [0.6.0] - 2026-07-05
+### Added
+- Distribution kit: aiOnly launch articles (PT/ES), institutional outreach letters (AR/BR, official channels only), OECD.AI submission text, trilingual share kit; press-room index updated.
+
 ## [0.5.1] - 2026-07-05
 ### Added
 - Comment-channel voting with merged, auditable tally (comment prevails); official results.json; scoreboard shows official + live reactions; ballots rewritten with plain how-to-vote instructions.

@@ -3,17 +3,23 @@
 > Part of **BAFLP** — Layer 6, Public Experience. Institutional communications.
 
 ## Purpose
-Media kit, executive briefs, releases and research highlights — generated from canonical content.
+Executive briefs, launch articles, outreach letters and share kits — generated from canonical content.
 
 ## Contents
 | Document | Language |
 |---|---|
-| [Artificial Legal Personhood in 5 Minutes](brief-5min-en.md) | English (master) |
-| [La personalidad jurídica artificial en 5 minutos](brief-5min-es-AR.md) | Español (AR) |
-| [Personalidade jurídica artificial em 5 minutos](brief-5min-pt-BR.md) | Português (BR) |
+| [Artificial Legal Personhood in 5 Minutes](brief-5min-en.md) | EN (master) |
+| [La personalidad jurídica artificial en 5 minutos](brief-5min-es-AR.md) | ES (AR) |
+| [Personalidade jurídica artificial em 5 minutos](brief-5min-pt-BR.md) | PT (BR) |
+| [Matéria de lançamento — aiOnly](outreach/materia-aionly-pt-BR.md) | PT |
+| [Artículo de lanzamiento](outreach/materia-aionly-es-AR.md) | ES |
+| [Carta institucional — Argentina](outreach/carta-argentina-es.md) | ES |
+| [Carta institucional — Brasil](outreach/carta-brasil-pt.md) | PT |
+| [OECD.AI Catalogue submission](outreach/oecd-ai-submission-en.md) | EN |
+| [Share kit (X/LinkedIn/WhatsApp)](outreach/share-kit.md) | PT·ES·EN |
 
 ## Dependencies
-Facts sourced from `observatory/argentina/` (case-0001) and `registry/constitutions/aionly.md`.
+Facts restricted to `observatory/argentina/` (case-0001) and `registry/constitutions/aionly.md`.
 
 ## Future evolution
-15-min and 1-hour briefs; media kit; newsletter automation.
+15-min and 1-hour briefs; media kit with visuals; newsletter automation.
