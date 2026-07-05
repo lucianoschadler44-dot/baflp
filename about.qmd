@@ -1,0 +1,32 @@
+---
+title: "About BAFLP"
+toc: true
+---
+
+## Mission
+To be the world's reference platform on **artificial legal personhood**: a permanent, open,
+plain-language and rigorously sourced body of knowledge serving citizens, professionals,
+researchers and legislators.
+
+## Method
+One concept, one file, one graph node — rendered through three lenses (citizen · professional ·
+researcher) from a single source, under a mandatory
+[Plain Language Policy](institution/standards/PLAIN-LANGUAGE-POLICY.md). A dependency graph tracks
+every relation, so any change surfaces every affected document. Everything is versioned; nothing is
+ever deleted.
+
+## Governance
+Founded and edited by **Luciano Schadler** (Chief Editor, final authority). Conceptual doctrine is
+authored through an open **RFC process**; engineering decisions are recorded as
+**[ADRs](core/adrs/README.md)**. See the [decision log](governance/decision-log.md) and
+[authority map](governance/AUTHORITY.md).
+
+## Operator
+**Schadler Tech** — Cascavel, Paraná, Brazil · Schadler.Tech.IA@gmail.com · +55 (45) 99113-3461.
+The platform itself practices what it studies: its reference instance,
+[aiOnly](registry/constitutions/aionly.md), is a real AI-operated enterprise with declared
+responsibility and public auditability.
+
+## Cite
+See `CITATION.cff` in the [repository](https://github.com/lucianoschadler44-dot/baflp) (GitHub
+renders a "Cite this repository" button).

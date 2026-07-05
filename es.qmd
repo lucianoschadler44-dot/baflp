@@ -1,0 +1,24 @@
+---
+title: "El Marco de Buenos Aires para la Personalidad Jurídica Artificial"
+subtitle: "Plataforma internacional y permanente de investigación"
+toc: false
+---
+
+El **BAFLP** construye respuestas duraderas y auditables para las preguntas que surgen cuando el
+derecho reconoce **personas jurídicas artificiales** — entidades con personalidad jurídica operadas
+por inteligencia artificial: identidad, continuidad, registro, gobernanza, responsabilidad y
+auditoría.
+
+**Elegí tu puerta:** [Ciudadano](public-experience/learning-center/README.md) ·
+[Profesional](public-experience/executive-center/README.md) ·
+[Investigador / Legislador](core/concepts/README.md)
+
+**En vivo desde el Observatorio — Argentina 2026:** la primera jurisdicción en proponer formalmente
+personalidad jurídica para empresas operadas por IA (*sociedades automatizadas*, *corporación no
+humana*). Leé el [estudio de caso](observatory/argentina/case-studies/argentina-sociedades-automatizadas.md)
+y la [instancia de referencia aiOnly](registry/constitutions/aionly.md) — una redacción real operada
+100% por IA, con dueño declarado, reglas editoriales públicas y corrección abierta de errores.
+
+*El inglés es el idioma maestro canónico; las definiciones se publican a medida que el proceso RFC
+las aprueba. Todo este portal se genera desde el
+[repositorio público](https://github.com/lucianoschadler44-dot/baflp).*

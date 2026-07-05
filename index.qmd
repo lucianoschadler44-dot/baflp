@@ -1,17 +1,48 @@
 ---
 title: "The Buenos Aires Framework for Artificial Legal Personhood"
-subtitle: "A permanent international research framework"
+subtitle: "A permanent international research platform on the legal personhood of artificial entities"
+page-layout: article
+toc: false
 ---
 
-The Framework engineers durable, auditable answers to the questions raised when legal systems
-begin to recognise **artificial legal persons** — entities with legal personality that are
-operated by artificial intelligence.
-
-This site is a generated visualization of the [repository](https://github.com/lucianoschadler44-dot/baflp),
-which is the single source of truth. Start with the **Concepts** — each is a reusable knowledge
-object referenced throughout the Framework.
-
-::: callout-note
-Infrastructure status: bootstrap complete. Legal content is authored by the Chief Research
-Architect through the RFC process and is published here as it is approved.
+::: {.callout-note appearance="simple" icon=false}
+**BAFLP** engineers durable, auditable answers to the questions raised when legal systems recognise
+**artificial legal persons** — entities with legal personality operated by artificial intelligence:
+identity, continuity, registry, governance, liability and audit.
 :::
+
+## Choose your door
+
+| I am a… | Start here |
+|---|---|
+| **Citizen** — plain language, examples, no jargon | [Learning Center — Level 1](public-experience/learning-center/README.md) |
+| **Professional** — lawyer, engineer, entrepreneur, public manager | [Executive Center](public-experience/executive-center/README.md) · [Concepts](core/concepts/README.md) |
+| **Researcher / Legislator** — full theory, sources, model law | [Concepts](core/concepts/README.md) · [Model Law](model-law/README.md) · [Observatory](observatory/README.md) |
+
+## The six layers of the platform
+
+**1 · Knowledge Core** — every concept exists exactly once; everything references it.
+**2 · Institution** — governance, standards, the [Plain Language Policy](institution/standards/PLAIN-LANGUAGE-POLICY.md).
+**3 · Observatory** — the world monitored by jurisdiction: [Argentina](observatory/argentina/timeline.md), Brazil, EU, US, UK, Singapore, Japan, UAE, International.
+**4 · Publication Engine** — portal, PDF, DOCX, EPUB and releases generated from one source.
+**5 · Developer Platform** — validation, CI/CD and the knowledge **dependency graph**: change a concept and the system lists every affected document.
+**6 · Public Experience** — this portal, the Learning Center, executive reads, and (coming) the Decision Simulator and jurisdiction Compare.
+
+## Live from the Observatory
+
+**Argentina, 2026** — the first jurisdiction to formally propose legal personality for AI-operated
+companies (*sociedades automatizadas*, *corporación no humana*). Read the founding
+[case study](observatory/argentina/case-studies/argentina-sociedades-automatizadas.md).
+
+**Reference instance** — [aiOnly](registry/constitutions/aionly.md): a real newsroom operated
+entirely by AI, with a declared owner, public editorial rules and open error correction — evidence
+that an AI-run enterprise can be transparent, accountable and auditable.
+
+::: {.callout-warning appearance="simple"}
+**Status — v0.2.0.** Platform infrastructure is live. The canonical concept definitions are being
+authored through the open RFC process; lens views (citizen / professional / researcher) publish as
+they are approved. Everything on this site is generated from the
+[public repository](https://github.com/lucianoschadler44-dot/baflp) — the single source of truth.
+:::
+
+*Languages: [Español (AR)](es.qmd) · [Português (BR)](pt.qmd) — English is the canonical master.*
