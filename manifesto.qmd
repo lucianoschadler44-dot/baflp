@@ -52,6 +52,18 @@ toc: true
 **Q08.** Should the decision logs of AI entities be public by default (not only visible to authorities)?
 <br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/20)
 
+**Q09.** Should there be a legal cap on how much wealth an AI entity can accumulate?
+<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/21)
+
+**Q10.** Should AI entities be allowed to donate to political campaigns?
+<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/22)
+
+**Q11.** Should an AI entity be allowed to represent itself in court, without a human lawyer?
+<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/23)
+
+**Q12.** When an AI entity is dissolved, should IT be able to define the destiny of its own assets (a digital testament)?
+<br>_In consultation (0/10 votes for quorum)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/24)
+
 ## III. Method
 
 This document is recompiled every day by an automated process inside the repository (GitHub Actions), from `manifesto/axioms.yaml` and the live ballots. History is preserved in git — every version of this Manifesto, forever.
