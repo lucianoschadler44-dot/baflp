@@ -26,7 +26,7 @@ const R={
  rVac:{t:"Responsibility-vacuum risk",d:"An acting entity without a traceable answerable party — the exact failure mode a lawful regime must prevent.",c:[["Liability","../../core/concepts/liability.html"],["Artificial Registry","../../core/concepts/artificial-registry.html"]]},
  rGov:{t:"Ungoverned entity",d:"With no declared rules there is no standard to adjudicate conduct against.",c:[["Governance","../../core/concepts/governance.html"]]},
  rAud:{t:"Not auditable",d:"Even a perfect liability regime has nothing to act on without an inspectable trail.",c:[["Audit","../../core/concepts/audit.html"],["Liability","../../core/concepts/liability.html"]]},
- rFull:{t:"Illustrative profile: full-stack artificial legal person",d:"Registry + accountability + governance + audit + patrimony: the profile a complete artificial legal person would present. (Illustrative — doctrine under RFC review.)",c:[["All six concepts","../../core/concepts/README.html"]]},
+ rFull:{t:"Illustrative profile: full-stack artificial legal person",d:"Registry + accountability + governance + audit + patrimony: the profile a complete artificial legal person would present. (Illustrative — doctrine under RFC review.)",c:[["All six concepts","../../core/concepts/index.html"]]},
  rAgent:{t:"Operated agent (no own patrimony)",d:"Without assets of its own, liability falls on the declared operator: the entity acts, the operator answers.",c:[["Liability","../../core/concepts/liability.html"],["Governance","../../core/concepts/governance.html"]]}};
 let cur="q1",path=[];
 const el=document.getElementById("alp-sim");

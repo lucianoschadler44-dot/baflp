@@ -1,6 +1,4 @@
-# Glossary
-
-> Auto-generated from concept summaries — do not edit by hand.
+# Glossary (generated)
 
 **Artificial Identity** — How an artificial legal person is uniquely and persistently identified.
 

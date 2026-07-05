@@ -1,0 +1,29 @@
+---
+title: "Read this with your AI"
+subtitle: "Don't read raw sources — let your AI read them for you"
+toc: false
+---
+
+Most people don't read frameworks; they ask an AI to. We embrace that. This entire platform is
+packaged for machine reading under the emerging **llms.txt** convention.
+
+**The two links:**
+[llms.txt](llms.txt) — curated index for AI agents · [llms-full.txt](llms-full.txt) — the whole
+framework in a single file.
+
+## Copy a prompt (PT · ES · EN)
+
+**Português:** `Leia https://lucianoschadler44-dot.github.io/baflp/llms-full.txt e me explique em 5
+pontos o que é o BAFLP, o que a Argentina propôs em 2026 e por que o "vácuo de responsabilidade"
+importa. Depois me diga o que um deputado brasileiro deveria fazer com isso.`
+
+**Español:** `Leé https://lucianoschadler44-dot.github.io/baflp/llms-full.txt y explicame en 5
+puntos qué es el BAFLP, qué propuso Argentina en 2026 y por qué importa el "vacío de
+responsabilidad". Después decime qué debería hacer un legislador argentino con esto.`
+
+**English:** `Read https://lucianoschadler44-dot.github.io/baflp/llms-full.txt and explain in 5
+bullet points what BAFLP is, what Argentina proposed in 2026, and why the "responsibility vacuum"
+matters. Then tell me what a policymaker should do with it.`
+
+Works with Claude, ChatGPT, Gemini, Grok, DeepSeek — any AI that reads URLs. When the
+institutional domain **research.schadler.tech** goes live, these links follow automatically.

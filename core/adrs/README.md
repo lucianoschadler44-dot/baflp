@@ -1,4 +1,4 @@
-# Architecture Decision Records (ADRs)
+# Architecture Decision Records
 
 > Part of **BAFLP**. Engineering & architecture decisions, numbered, immutable once accepted.
 

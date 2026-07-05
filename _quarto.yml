@@ -1,12 +1,16 @@
 project:
   type: website
   output-dir: build/_site
+  resources:
+    - llms.txt
+    - llms-full.txt
   render:
     - "index.qmd"
     - "es.qmd"
     - "pt.qmd"
     - "about.qmd"
     - "glossary.qmd"
+    - "ai.qmd"
     - "core/"
     - "institution/"
     - "observatory/"
@@ -22,6 +26,8 @@ website:
   description: "The Buenos Aires Framework for Artificial Legal Personhood"
   site-url: "https://research.schadler.tech"
   reader-mode: true
+  open-graph: true
+  twitter-card: true
   search:
     location: navbar
     type: overlay
@@ -30,15 +36,17 @@ website:
     pinned: true
     left:
       - text: "Observatory"
-        href: observatory/README.md
+        href: observatory/index.qmd
       - text: "Concepts"
-        href: core/concepts/README.md
+        href: core/concepts/index.qmd
       - text: "Model Law"
-        href: model-law/README.md
+        href: model-law/index.qmd
       - text: "Simulator"
         href: public-experience/decision-simulator/simulator.qmd
       - text: "Compare"
         href: public-experience/compare/compare.qmd
+      - text: "AI"
+        href: ai.qmd
       - text: "Glossary"
         href: glossary.qmd
       - text: "About"

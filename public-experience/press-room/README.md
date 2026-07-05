@@ -1,4 +1,4 @@
-# press-room
+# Press Room
 
 > Part of **BAFLP** — Layer 6, Public Experience. Institutional communications.
 

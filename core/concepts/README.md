@@ -1,4 +1,4 @@
-# concepts
+# Concepts
 
 > Part of **BAFLP** — Layer 1, the Knowledge Core. Each concept exists exactly once; everything
 > else references it by id. Bodies are multi-lens (citizen · professional · researcher) under the
