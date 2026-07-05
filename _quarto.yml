@@ -11,6 +11,8 @@ project:
     - "about.qmd"
     - "glossary.qmd"
     - "ai.qmd"
+    - "consultation.qmd"
+    - "manifesto.qmd"
     - "core/"
     - "institution/"
     - "observatory/"
@@ -41,7 +43,11 @@ website:
         href: core/concepts/index.qmd
       - text: "Model Law"
         href: model-law/index.qmd
-      - text: "Simulator"
+      - text: "Consultation"
+        href: consultation.qmd
+      - text: "Manifesto"
+        href: manifesto.qmd
+      - text: "Checklist"
         href: public-experience/decision-simulator/simulator.qmd
       - text: "Compare"
         href: public-experience/compare/compare.qmd

@@ -1,0 +1,37 @@
+---
+title: "Public Consultation"
+subtitle: "12 real questions. Your vote shapes the living Manifesto."
+toc: false
+---
+
+**How it works:** each question is a GitHub issue. Vote with 👍 (yes) or 👎 (no) — one account,
+one vote, fully public and auditable. Comments in PT/ES/EN feed the Manifesto's qualitative
+section. Non-negotiable axioms are not up for vote — read them in the [Manifesto](manifesto.qmd).
+
+```{=html}
+<div id="consulta">Loading live results from GitHub…</div>
+<script>
+(function(){
+ var el=document.getElementById("consulta");
+ fetch("https://api.github.com/repos/lucianoschadler44-dot/baflp/issues?labels=consultation&state=open&per_page=100")
+ .then(function(r){return r.json()})
+ .then(function(list){
+   if(!Array.isArray(list)||!list.length){el.innerHTML="Live results unavailable right now — vote directly on <a href='https://github.com/lucianoschadler44-dot/baflp/issues?q=label%3Aconsultation'>GitHub</a>.";return;}
+   list.sort(function(a,b){return a.title<b.title?-1:1});
+   var h="";
+   list.forEach(function(is){
+     var y=(is.reactions&&is.reactions["+1"])||0, n=(is.reactions&&is.reactions["-1"])||0, t=y+n;
+     var py=t?Math.round(100*y/t):0;
+     h+='<div style="border:1px solid #d0d4dc;border-radius:8px;padding:.9rem;margin:.6rem 0">'
+       +'<div style="font-weight:600;margin-bottom:.45rem">'+is.title+'</div>'
+       +'<div style="background:#eee;border-radius:6px;overflow:hidden;height:14px">'
+       +'<div style="width:'+py+'%;height:14px;background:#1f2a44"></div></div>'
+       +'<div style="font-size:.85rem;color:#555;margin-top:.35rem">YES '+y+' · NO '+n+' · '+t+' votes'
+       +' — <a href="'+is.html_url+'">vote &amp; comment</a></div></div>';
+   });
+   el.innerHTML=h;
+ })
+ .catch(function(){el.innerHTML="Live results unavailable — vote on <a href='https://github.com/lucianoschadler44-dot/baflp/issues?q=label%3Aconsultation'>GitHub</a>.";});
+})();
+</script>
+```

@@ -5,6 +5,13 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-07-05
+### Added
+- Public Consultation: 12 trilingual questions as GitHub ballots (reactions = votes), live-results page.
+- Living Manifesto: axioms + quorum-gated majority positions, recompiled daily by repo automation.
+### Changed
+- Simulator repositioned as plain-language Compliance Checklist with full-flow answers.
+
 ## [0.3.0] - 2026-07-05
 ### Added
 - AI-readability layer: llms.txt + llms-full.txt (llmstxt.org), "AI" portal page with ready prompts (PT/ES/EN), Open Graph/Twitter cards, GitHub topics.
