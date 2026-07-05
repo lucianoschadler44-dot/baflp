@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [0.2.3] - 2026-07-05
+### Fixed
+- Site render: canonical directory render list; slim site workflow (no TinyTeX/PDF in Pages build) + artifact sanity check.
+
 ## [0.2.2] - 2026-07-05
 ### Fixed
 - CI: empty YAML frontmatter fields (category/author) removed; permanent yaml-empty test added to CI and validate.sh.
