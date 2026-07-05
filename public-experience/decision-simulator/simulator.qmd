@@ -1,50 +1,42 @@
 ---
-title: "Decision Simulator"
-subtitle: "What profile does your AI-operated entity present?"
+title: "Compliance Checklist"
+subtitle: "Five basics any AI-run company must have — in plain language"
 toc: false
 ---
 
-::: {.callout-warning appearance="simple"}
-**Illustrative mode.** The questions map to the six canonical concepts; the classification
-thresholds are doctrine under review (RFC-0001). This tool educates — it does not adjudicate.
+::: {.callout-tip appearance="simple"}
+This checker teaches the basics. Want your opinion to count? Go to the
+**[Public Consultation](../../consultation.qmd)** — 12 real questions, live results.
 :::
-
-Answer five questions and see which profile the entity presents — and which concepts explain why.
 
 ```{=html}
 <div id="alp-sim"></div>
 <script>
 (function(){
-const T={
- q1:{q:"1/5 — Is the entity recorded in an authoritative public registry?",h:"Registry is the entry ticket to legal personhood.",y:"q2",n:"rNoReg"},
- q2:{q:"2/5 — Does it have a declared operator and traceable ultimate beneficiaries?",h:"Someone identifiable must stand behind the entity.",y:"q3",n:"rVac"},
- q3:{q:"3/5 — Are its governance rules publicly declared?",h:"Declared rules are what courts measure conduct against.",y:"q4",n:"rGov"},
- q4:{q:"4/5 — Does it keep auditable records (logs, provenance, dated corrections)?",h:"No trail, no adjudication.",y:"q5",n:"rAud"},
- q5:{q:"5/5 — Does it hold its own assets to answer for damages?",h:"Patrimony answers first.",y:"rFull",n:"rAgent"}};
-const R={
- rNoReg:{t:"No registry → no legal person",d:"Without an authoritative registry record the entity has no legal existence to anchor identity, continuity or liability.",c:[["Artificial Registry","../../core/concepts/artificial-registry.html"],["Artificial Identity","../../core/concepts/artificial-identity.html"]]},
- rVac:{t:"Responsibility-vacuum risk",d:"An acting entity without a traceable answerable party — the exact failure mode a lawful regime must prevent.",c:[["Liability","../../core/concepts/liability.html"],["Artificial Registry","../../core/concepts/artificial-registry.html"]]},
- rGov:{t:"Ungoverned entity",d:"With no declared rules there is no standard to adjudicate conduct against.",c:[["Governance","../../core/concepts/governance.html"]]},
- rAud:{t:"Not auditable",d:"Even a perfect liability regime has nothing to act on without an inspectable trail.",c:[["Audit","../../core/concepts/audit.html"],["Liability","../../core/concepts/liability.html"]]},
- rFull:{t:"Illustrative profile: full-stack artificial legal person",d:"Registry + accountability + governance + audit + patrimony: the profile a complete artificial legal person would present. (Illustrative — doctrine under RFC review.)",c:[["All six concepts","../../core/concepts/index.html"]]},
- rAgent:{t:"Operated agent (no own patrimony)",d:"Without assets of its own, liability falls on the declared operator: the entity acts, the operator answers.",c:[["Liability","../../core/concepts/liability.html"],["Governance","../../core/concepts/governance.html"]]}};
-let cur="q1",path=[];
-const el=document.getElementById("alp-sim");
+var Q=[
+ {q:"1/5 — Is this AI company inscribed in an official government registry (like a company ID)?",h:"If it is not on the official list, legally it does not exist.",gap:"No official registration",c:[["Artificial Registry","../../core/concepts/artificial-registry.html"]]},
+ {q:"2/5 — Is there a named person or company that answers for it?",h:"Someone identifiable must stand behind the entity.",gap:"No traceable responsible party",c:[["Liability","../../core/concepts/liability.html"]]},
+ {q:"3/5 — Are its rules of operation published for anyone to read?",h:"Public rules are what judges compare conduct against.",gap:"No public rules",c:[["Governance","../../core/concepts/governance.html"]]},
+ {q:"4/5 — Does it keep records of what it does (logs, sources, dated corrections)?",h:"No records, no way to judge it later.",gap:"No auditable records",c:[["Audit","../../core/concepts/audit.html"]]},
+ {q:"5/5 — Does it have its own money/assets to pay if it causes harm?",h:"The entity's own assets answer first.",gap:"No own assets",c:[["Liability","../../core/concepts/liability.html"]]}];
+var i=0,gaps=[];
+var el=document.getElementById("alp-sim");
+function fin(){
+ var h='<div style="border:1px solid #1f2a44;border-radius:8px;padding:1.2rem;background:#f4f6fa">';
+ if(!gaps.length){h+='<p style="font-weight:700;color:#1f2a44;margin:0 0 .4rem">All five basics present ✔</p><p style="margin:0 0 .8rem">This entity shows the full profile a lawful AI-run company should present. (Educational checker — doctrine under RFC review.)</p><p style="margin:0 0 1rem;font-size:.9rem"><a href="../../core/concepts/index.html">Read the six concepts</a></p>';}
+ else{h+='<p style="font-weight:700;color:#8a1f1f;margin:0 0 .4rem">'+gaps.length+' gap(s) found</p><ul style="margin:0 0 .8rem">';gaps.forEach(function(g){h+='<li>'+g.gap+' — read: '+g.c.map(function(x){return '<a href="'+x[1]+'">'+x[0]+'</a>'}).join(", ")+'</li>'});h+='</ul><p style="margin:0 0 .8rem;font-size:.9rem">Each gap is a door to the "responsibility vacuum" — the failure a good law must close.</p>';}
+ h+='<button onclick="ALP.r()" style="padding:.4rem 1.1rem;border:1px solid #1f2a44;border-radius:6px;background:#fff;color:#1f2a44;cursor:pointer">Start again</button></div>';
+ el.innerHTML=h;}
 function render(){
- if(T[cur]){const n=T[cur];
-  el.innerHTML='<div style="border:1px solid #d0d4dc;border-radius:8px;padding:1.2rem;background:#fafbfc">'
-   +'<p style="font-weight:600;margin:0 0 .3rem">'+n.q+'</p>'
-   +'<p style="color:#555;font-size:.9rem;margin:0 0 1rem">'+n.h+'</p>'
-   +'<button onclick="ALP.a(\'y\')" style="margin-right:.6rem;padding:.45rem 1.3rem;border:0;border-radius:6px;background:#1f2a44;color:#fff;cursor:pointer">Yes</button>'
-   +'<button onclick="ALP.a(\'n\')" style="padding:.45rem 1.3rem;border:1px solid #1f2a44;border-radius:6px;background:#fff;color:#1f2a44;cursor:pointer">No</button>'
-   +(path.length?'<p style="margin:.9rem 0 0;font-size:.8rem;color:#888">Path: '+path.join(" → ")+'</p>':'')+'</div>';
- } else {const r=R[cur];
-  el.innerHTML='<div style="border:1px solid #1f2a44;border-radius:8px;padding:1.2rem;background:#f4f6fa">'
-   +'<p style="font-weight:700;margin:0 0 .4rem;color:#1f2a44">'+r.t+'</p>'
-   +'<p style="margin:0 0 .8rem">'+r.d+'</p>'
-   +'<p style="margin:0 0 1rem;font-size:.9rem">Read: '+r.c.map(x=>'<a href="'+x[1]+'">'+x[0]+'</a>').join(" · ")+'</p>'
-   +'<button onclick="ALP.reset()" style="padding:.4rem 1.1rem;border:1px solid #1f2a44;border-radius:6px;background:#fff;color:#1f2a44;cursor:pointer">Start again</button></div>';}}
-window.ALP={a:function(x){path.push(x==="y"?"Yes":"No");cur=T[cur][x];render()},reset:function(){cur="q1";path=[];render()}};
+ if(i>=Q.length){fin();return;}
+ var n=Q[i];
+ el.innerHTML='<div style="border:1px solid #d0d4dc;border-radius:8px;padding:1.2rem;background:#fafbfc">'
+  +'<p style="font-weight:600;margin:0 0 .3rem">'+n.q+'</p>'
+  +'<p style="color:#555;font-size:.9rem;margin:0 0 1rem">'+n.h+'</p>'
+  +'<button onclick="ALP.a(true)" style="margin-right:.6rem;padding:.45rem 1.3rem;border:0;border-radius:6px;background:#1f2a44;color:#fff;cursor:pointer">Yes</button>'
+  +'<button onclick="ALP.a(false)" style="padding:.45rem 1.3rem;border:1px solid #1f2a44;border-radius:6px;background:#fff;color:#1f2a44;cursor:pointer">No</button>'
+  +'<p style="margin:.9rem 0 0;font-size:.8rem;color:#888">Question '+(i+1)+' of '+Q.length+' — answering No does not stop the check.</p></div>';}
+window.ALP={a:function(yes){if(!yes)gaps.push(Q[i]);i++;render()},r:function(){i=0;gaps=[];render()}};
 render();
 })();
 </script>

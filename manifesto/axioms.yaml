@@ -1,0 +1,28 @@
+# BAFLP Manifesto — non-negotiable axioms (not subject to vote)
+version: 0.1.0
+quorum_per_question: 10        # minimum votes for a question to enter the manifesto
+axioms:
+  - id: AX1
+    en: "Every AI-operated legal entity must have an identifiable, traceable responsible party."
+    pt: "Toda entidade jurídica operada por IA deve ter um responsável identificável e rastreável."
+    es: "Toda entidad jurídica operada por IA debe tener un responsable identificable y rastreable."
+  - id: AX2
+    en: "Existence as a legal person requires inscription in an authoritative public registry."
+    pt: "Existir como pessoa jurídica exige inscrição em um cadastro público oficial."
+    es: "Existir como persona jurídica exige inscripción en un registro público oficial."
+  - id: AX3
+    en: "The entity's own assets answer first for the harm it causes."
+    pt: "O patrimônio da própria entidade responde primeiro pelos danos que ela causar."
+    es: "El patrimonio de la propia entidad responde primero por los daños que cause."
+  - id: AX4
+    en: "Conduct must leave auditable records; hidden operation is incompatible with personhood."
+    pt: "A conduta deve deixar registros auditáveis; operação oculta é incompatível com personalidade."
+    es: "La conducta debe dejar registros auditables; operar oculto es incompatible con la personalidad."
+  - id: AX5
+    en: "Governance rules must be publicly declared before the entity acts."
+    pt: "As regras de governança devem ser declaradas publicamente antes de a entidade atuar."
+    es: "Las reglas de gobernanza deben declararse públicamente antes de que la entidad actúe."
+  - id: AX6
+    en: "AI-produced acts and content must be labeled as such; simulating humanity is fraud."
+    pt: "Atos e conteúdos produzidos por IA devem ser rotulados como tais; simular humanidade é fraude."
+    es: "Actos y contenidos producidos por IA deben rotularse como tales; simular humanidad es fraude."

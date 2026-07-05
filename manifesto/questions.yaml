@@ -1,0 +1,62 @@
+version: 0.1.0
+questions:
+  - id: Q01
+    slug: no-human-owner
+    en: "Should an AI-operated company be allowed to exist with NO human owner or shareholder at all?"
+    pt: "Uma empresa operada por IA deve poder existir SEM nenhum dono ou acionista humano?"
+    es: "¿Debería poder existir una empresa operada por IA SIN ningún dueño o accionista humano?"
+  - id: Q02
+    slug: punish-entity-itself
+    en: "Should fines and penalties fall on the AI entity's own assets, and not only on its human operator?"
+    pt: "Multas e punições devem recair sobre o patrimônio da própria entidade IA, e não apenas sobre o operador humano?"
+    es: "¿Las multas y sanciones deberían recaer sobre el patrimonio de la propia entidad de IA, y no solo sobre su operador humano?"
+  - id: Q03
+    slug: shutdown-penalty
+    en: "Should courts be able to order the compulsory shutdown (dissolution) of a repeat-offender AI entity?"
+    pt: "Tribunais devem poder decretar o desligamento compulsório (dissolução) de uma entidade IA reincidente?"
+    es: "¿Deberían los tribunales poder ordenar el apagado compulsivo (disolución) de una entidad de IA reincidente?"
+  - id: Q04
+    slug: equal-taxes
+    en: "Should AI-operated companies pay exactly the same taxes as human-run companies?"
+    pt: "Empresas operadas por IA devem pagar exatamente os mesmos impostos que empresas humanas?"
+    es: "¿Las empresas operadas por IA deberían pagar exactamente los mismos impuestos que las empresas humanas?"
+  - id: Q05
+    slug: own-copyright
+    en: "Should an AI entity be able to OWN the copyright of what it creates?"
+    pt: "Uma entidade IA deve poder SER DONA dos direitos autorais do que cria?"
+    es: "¿Una entidad de IA debería poder SER DUEÑA de los derechos de autor de lo que crea?"
+  - id: Q06
+    slug: hire-fire-humans
+    en: "Should an AI entity be allowed to hire and fire human employees?"
+    pt: "Uma entidade IA deve poder contratar e demitir empregados humanos?"
+    es: "¿Una entidad de IA debería poder contratar y despedir empleados humanos?"
+  - id: Q07
+    slug: own-shares
+    en: "Should an AI entity be allowed to own shares in human companies?"
+    pt: "Uma entidade IA deve poder ser sócia/acionista de empresas humanas?"
+    es: "¿Una entidad de IA debería poder ser socia/accionista de empresas humanas?"
+  - id: Q08
+    slug: public-logs
+    en: "Should the decision logs of AI entities be public by default (not only visible to authorities)?"
+    pt: "Os registros de decisão de entidades IA devem ser públicos por padrão (não apenas para autoridades)?"
+    es: "¿Los registros de decisión de las entidades de IA deberían ser públicos por defecto (no solo para autoridades)?"
+  - id: Q09
+    slug: wealth-cap
+    en: "Should there be a legal cap on how much wealth an AI entity can accumulate?"
+    pt: "Deve existir um teto legal para o patrimônio que uma entidade IA pode acumular?"
+    es: "¿Debería existir un tope legal al patrimonio que puede acumular una entidad de IA?"
+  - id: Q10
+    slug: political-donations
+    en: "Should AI entities be allowed to donate to political campaigns?"
+    pt: "Entidades IA devem poder doar para campanhas políticas?"
+    es: "¿Las entidades de IA deberían poder donar a campañas políticas?"
+  - id: Q11
+    slug: self-representation
+    en: "Should an AI entity be allowed to represent itself in court, without a human lawyer?"
+    pt: "Uma entidade IA deve poder se representar sozinha em juízo, sem advogado humano?"
+    es: "¿Una entidad de IA debería poder representarse sola ante la justicia, sin abogado humano?"
+  - id: Q12
+    slug: digital-testament
+    en: "When an AI entity is dissolved, should IT be able to define the destiny of its own assets (a digital testament)?"
+    pt: "Quando uma entidade IA for dissolvida, ELA deve poder definir o destino do próprio patrimônio (testamento digital)?"
+    es: "Cuando una entidad de IA sea disuelta, ¿debería poder definir ELLA el destino de su propio patrimonio (testamento digital)?"
