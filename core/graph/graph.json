@@ -5,42 +5,42 @@
       "title": "Audit",
       "path": "core/concepts/audit.md",
       "status": "draft",
-      "complexity": null
+      "complexity": "beginner"
     },
     {
       "id": "concept-0003",
       "title": "Artificial Registry",
       "path": "core/concepts/artificial-registry.md",
       "status": "draft",
-      "complexity": null
+      "complexity": "beginner"
     },
     {
       "id": "concept-0005",
       "title": "Liability",
       "path": "core/concepts/liability.md",
       "status": "draft",
-      "complexity": null
+      "complexity": "intermediate"
     },
     {
       "id": "concept-0002",
       "title": "Legal Continuity",
       "path": "core/concepts/legal-continuity.md",
       "status": "draft",
-      "complexity": null
+      "complexity": "intermediate"
     },
     {
       "id": "concept-0001",
       "title": "Artificial Identity",
       "path": "core/concepts/artificial-identity.md",
       "status": "draft",
-      "complexity": null
+      "complexity": "beginner"
     },
     {
       "id": "concept-0004",
       "title": "Governance",
       "path": "core/concepts/governance.md",
       "status": "draft",
-      "complexity": null
+      "complexity": "intermediate"
     },
     {
       "id": "case-0001",
@@ -58,6 +58,136 @@
     }
   ],
   "edges": [
+    {
+      "from": "concept-0006",
+      "to": "concept-0004",
+      "type": "related-to"
+    },
+    {
+      "from": "concept-0006",
+      "to": "concept-0004",
+      "type": "references"
+    },
+    {
+      "from": "concept-0006",
+      "to": "concept-0005",
+      "type": "references"
+    },
+    {
+      "from": "concept-0003",
+      "to": "concept-0006",
+      "type": "related-to"
+    },
+    {
+      "from": "concept-0003",
+      "to": "concept-0001",
+      "type": "references"
+    },
+    {
+      "from": "concept-0003",
+      "to": "concept-0002",
+      "type": "references"
+    },
+    {
+      "from": "concept-0003",
+      "to": "concept-0005",
+      "type": "references"
+    },
+    {
+      "from": "concept-0003",
+      "to": "concept-0006",
+      "type": "references"
+    },
+    {
+      "from": "concept-0005",
+      "to": "concept-0003",
+      "type": "depends-on"
+    },
+    {
+      "from": "concept-0005",
+      "to": "concept-0004",
+      "type": "related-to"
+    },
+    {
+      "from": "concept-0005",
+      "to": "concept-0006",
+      "type": "related-to"
+    },
+    {
+      "from": "concept-0005",
+      "to": "concept-0003",
+      "type": "references"
+    },
+    {
+      "from": "concept-0005",
+      "to": "concept-0006",
+      "type": "references"
+    },
+    {
+      "from": "concept-0005",
+      "to": "concept-0004",
+      "type": "references"
+    },
+    {
+      "from": "concept-0002",
+      "to": "concept-0001",
+      "type": "depends-on"
+    },
+    {
+      "from": "concept-0002",
+      "to": "concept-0003",
+      "type": "related-to"
+    },
+    {
+      "from": "concept-0002",
+      "to": "concept-0001",
+      "type": "references"
+    },
+    {
+      "from": "concept-0002",
+      "to": "concept-0003",
+      "type": "references"
+    },
+    {
+      "from": "concept-0001",
+      "to": "concept-0003",
+      "type": "depends-on"
+    },
+    {
+      "from": "concept-0001",
+      "to": "concept-0002",
+      "type": "related-to"
+    },
+    {
+      "from": "concept-0001",
+      "to": "concept-0003",
+      "type": "references"
+    },
+    {
+      "from": "concept-0001",
+      "to": "concept-0002",
+      "type": "references"
+    },
+    {
+      "from": "concept-0004",
+      "to": "concept-0006",
+      "type": "related-to"
+    },
+    {
+      "from": "concept-0004",
+      "to": "concept-0005",
+      "type": "related-to"
+    },
+    {
+      "from": "concept-0004",
+      "to": "concept-0006",
+      "type": "references"
+    },
+    {
+      "from": "concept-0004",
+      "to": "concept-0005",
+      "type": "references"
+    },
     {
       "from": "case-0001",
       "to": "concept-0001",
