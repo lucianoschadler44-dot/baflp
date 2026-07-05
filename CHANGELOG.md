@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [0.5.1] - 2026-07-05
+### Added
+- Comment-channel voting with merged, auditable tally (comment prevails); official results.json; scoreboard shows official + live reactions; ballots rewritten with plain how-to-vote instructions.
+
 ## [0.5.0] - 2026-07-05
 ### Added
 - Tri-state public ballots (yes/no/depends) with comment counting; consultation expanded to 20 trilingual questions; 3-segment live results.

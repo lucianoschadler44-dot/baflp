@@ -1,5 +1,5 @@
 
-> Automated compilation — 2026-07-05. Ballots: 👍 yes · 👎 no · 😕 depends. Quorum ≥10 votes; comments counted as qualitative input. Every ballot is public and auditable.
+> Automated compilation — 2026-07-05. Vote by comment (SIM/NÃO/DEPENDE) or reaction (👍/👎/😕); one account = one vote, comment prevails. Quorum ≥10. Every ballot public and auditable.
 
 ## I. Non-negotiable axioms
 
@@ -80,6 +80,9 @@
 **Q19.** Should a human be allowed to leave inheritance (bequests) to an AI entity?
 <br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/32)
 
+**Q20.** Should an AI entity be allowed to sue humans or companies in its own name?
+<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/33)
+
 ## III. Method
 
-Recompiled daily by in-repo automation from `manifesto/axioms.yaml`, `manifesto/questions.yaml` and the live ballots. Full history preserved in git.
+Merged tally: comment votes and reactions, one account one vote (comment prevails, latest counts). Compiled by in-repo automation into this page and `manifesto/results.json`. Full history in git.
