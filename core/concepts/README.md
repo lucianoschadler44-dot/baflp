@@ -1,16 +1,16 @@
 # concepts
 
-> Part of **BAFLP** — The Buenos Aires Framework for Artificial Legal Personhood.
-> This README is mandatory metadata. Do not delete.
+> Part of **BAFLP** — Layer 1, the Knowledge Core. Each concept exists exactly once; everything
+> else references it by id. Bodies are multi-lens (citizen · professional · researcher) under the
+> Plain Language Policy.
 
-## Purpose
-The knowledge-object layer. Each concept (Artificial Identity, Legal Continuity, Artificial Registry, Governance, Liability, Audit, ...) exists EXACTLY ONCE here and is referenced everywhere.
+| id | Concept | Status |
+|---|---|---|
+| concept-0001 | [Artificial Identity](artificial-identity.md) | draft (RFC-0001 in review) |
+| concept-0002 | [Legal Continuity](legal-continuity.md) | draft (RFC-0001 in review) |
+| concept-0003 | [Artificial Registry](artificial-registry.md) | draft (RFC-0001 in review) |
+| concept-0004 | [Governance](governance.md) | draft (RFC-0001 in review) |
+| concept-0005 | [Liability](liability.md) | draft (RFC-0001 in review) |
+| concept-0006 | [Audit](audit.md) | draft (RFC-0001 in review) |
 
-## Contents
-One Markdown file per concept with mandatory YAML frontmatter (id, version, status, relations). A `_TEMPLATE.md` and metadata-only stubs (no doctrine yet).
-
-## Dependencies
-Depends on `ontology/` (relations) and `taxonomy/` (category). Bibliography keys from `bibliography/`.
-
-## Future evolution
-Each concept versions independently; cross-references resolved automatically at build time.
+Authoring: `templates/concept.md` · schema: `core/metadata/concept-schema.md`.
