@@ -6,17 +6,26 @@ on:
 permissions:
   contents: write
   issues: read
+  actions: write
 jobs:
   recompile:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - run: pip install pyyaml
-      - run: python3 scripts/manifesto-build.py
+      - name: Recompile manifesto from live ballots
+        run: python3 scripts/manifesto-build.py
         env:
           GH_TOKEN: ${{ github.token }}
-      - run: |
+      - name: Commit + trigger site rebuild
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
           git config user.name "baflp-manifesto-bot"
           git config user.email "manifesto@baflp"
           git add manifesto.qmd manifesto/MANIFESTO.md
-          git diff --cached --quiet || { git commit -m "chore(manifesto): daily recompilation from live consultation"; git push; }
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(manifesto): daily recompilation from live consultation"
+            git push
+            gh workflow run build.yml || true
+          fi

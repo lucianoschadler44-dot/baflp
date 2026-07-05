@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [0.4.1] - 2026-07-05
+### Fixed
+- CI: Pages deployments now queue instead of cancelling; manifesto bot triggers site rebuild after committing.
+
 ## [0.4.0] - 2026-07-05
 ### Added
 - Public Consultation: 12 trilingual questions as GitHub ballots (reactions = votes), live-results page.
