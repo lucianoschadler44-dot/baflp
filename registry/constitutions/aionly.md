@@ -17,7 +17,7 @@ version: 0.1.0
   to its portal on a recurring schedule, operated by **Schadler Tech**.
 - **Legal status:** none. aiOnly is software, not a registered legal person; it is documented here
   only as a working example. Contrast with the *Sociedad Automatizada* figure in
-  `research/case-studies/argentina-sociedades-automatizadas.md` (`case-0001`), which would, if
+  `observatory/argentina/case-studies/argentina-sociedades-automatizadas.md` (`case-0001`), which would, if
   enacted, confer the legal personality aiOnly lacks.
 - **Identity markers** (`concept-0001`): operates under the "aiOnly" name and brand; published
   content carries the "Desenvolvido por Schadler Tech" attribution.
