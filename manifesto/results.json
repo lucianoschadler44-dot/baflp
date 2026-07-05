@@ -1,0 +1,226 @@
+{
+ "generated": "2026-07-05",
+ "quorum": 10,
+ "questions": [
+  {
+   "id": "Q01",
+   "en": "Should an AI-operated company be allowed to exist with NO human owner or shareholder at all?",
+   "number": 13,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/13",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q02",
+   "en": "Should fines and penalties fall on the AI entity's own assets, and not only on its human operator?",
+   "number": 14,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/14",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q03",
+   "en": "Should courts be able to order the compulsory shutdown (dissolution) of a repeat-offender AI entity?",
+   "number": 15,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/15",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q04",
+   "en": "Should AI-operated companies pay exactly the same taxes as human-run companies?",
+   "number": 16,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/16",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q05",
+   "en": "Should an AI entity be able to OWN the copyright of what it creates?",
+   "number": 17,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/17",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q06",
+   "en": "Should an AI entity be allowed to hire and fire human employees?",
+   "number": 18,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/18",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q07",
+   "en": "Should an AI entity be allowed to own shares in human companies?",
+   "number": 19,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/19",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q08",
+   "en": "Should the decision logs of AI entities be public by default (not only visible to authorities)?",
+   "number": 20,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/20",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q09",
+   "en": "Should there be a legal cap on how much wealth an AI entity can accumulate?",
+   "number": 21,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/21",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q10",
+   "en": "Should AI entities be allowed to donate to political campaigns?",
+   "number": 22,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/22",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q11",
+   "en": "Should an AI entity be allowed to represent itself in court, without a human lawyer?",
+   "number": 23,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/23",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q12",
+   "en": "When an AI entity is dissolved, should IT be able to define the destiny of its own assets (a digital testament)?",
+   "number": 24,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/24",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q13",
+   "en": "Should AI-operated entities be required to carry liability insurance before operating?",
+   "number": 26,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/26",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q14",
+   "en": "Beyond civil fines, should an AI entity have its own record of offenses (criminal-style accountability)?",
+   "number": 27,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/27",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q15",
+   "en": "Should AI entities be allowed to own land and real estate?",
+   "number": 28,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/28",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q16",
+   "en": "Should legal personhood granted to an AI entity in one country be automatically recognized in others?",
+   "number": 29,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/29",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q17",
+   "en": "Should governments be allowed to award public contracts to AI-operated companies?",
+   "number": 30,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/30",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q18",
+   "en": "Should a human-controlled emergency stop (kill switch) be mandatory for every AI entity?",
+   "number": 31,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/31",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q19",
+   "en": "Should a human be allowed to leave inheritance (bequests) to an AI entity?",
+   "number": 32,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/32",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  },
+  {
+   "id": "Q20",
+   "en": "Should an AI entity be allowed to sue humans or companies in its own name?",
+   "number": 33,
+   "url": "https://github.com/lucianoschadler44-dot/baflp/issues/33",
+   "yes": 0,
+   "no": 0,
+   "dep": 0,
+   "votes": 0,
+   "comments": 0
+  }
+ ]
+}

@@ -4,6 +4,7 @@ project:
   resources:
     - llms.txt
     - llms-full.txt
+    - manifesto/results.json
   render:
     - "index.qmd"
     - "es.qmd"
