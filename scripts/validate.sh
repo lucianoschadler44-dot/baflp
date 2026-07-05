@@ -8,4 +8,5 @@ if command -v lychee >/dev/null 2>&1; then
 else
   echo "[BAFLP] lychee not installed locally; link check runs in CI."
 fi
+python3 tests/readability_test.py
 echo "[BAFLP] validation OK"

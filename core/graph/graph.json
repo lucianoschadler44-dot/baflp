@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "concept-0006",
+      "title": "Audit",
+      "path": "core/concepts/audit.md",
+      "status": "draft",
+      "complexity": null
+    },
+    {
+      "id": "concept-0003",
+      "title": "Artificial Registry",
+      "path": "core/concepts/artificial-registry.md",
+      "status": "draft",
+      "complexity": null
+    },
+    {
+      "id": "concept-0005",
+      "title": "Liability",
+      "path": "core/concepts/liability.md",
+      "status": "draft",
+      "complexity": null
+    },
+    {
+      "id": "concept-0002",
+      "title": "Legal Continuity",
+      "path": "core/concepts/legal-continuity.md",
+      "status": "draft",
+      "complexity": null
+    },
+    {
+      "id": "concept-0001",
+      "title": "Artificial Identity",
+      "path": "core/concepts/artificial-identity.md",
+      "status": "draft",
+      "complexity": null
+    },
+    {
+      "id": "concept-0004",
+      "title": "Governance",
+      "path": "core/concepts/governance.md",
+      "status": "draft",
+      "complexity": null
+    },
+    {
+      "id": "case-0001",
+      "title": "Argentina \u2014 'Sociedades Automatizadas' and the legal personhood of AI-run companies",
+      "path": "observatory/argentina/case-studies/argentina-sociedades-automatizadas.md",
+      "status": "draft",
+      "complexity": null
+    },
+    {
+      "id": "constitution-0001",
+      "title": "Constitution of aiOnly (working record)",
+      "path": "registry/constitutions/aionly.md",
+      "status": "registered",
+      "complexity": null
+    }
+  ],
+  "edges": [
+    {
+      "from": "case-0001",
+      "to": "concept-0001",
+      "type": "references"
+    },
+    {
+      "from": "case-0001",
+      "to": "concept-0003",
+      "type": "references"
+    },
+    {
+      "from": "case-0001",
+      "to": "concept-0004",
+      "type": "references"
+    },
+    {
+      "from": "case-0001",
+      "to": "concept-0005",
+      "type": "references"
+    },
+    {
+      "from": "case-0001",
+      "to": "concept-0002",
+      "type": "references"
+    },
+    {
+      "from": "case-0001",
+      "to": "concept-0006",
+      "type": "references"
+    },
+    {
+      "from": "constitution-0001",
+      "to": "concept-0001",
+      "type": "references"
+    },
+    {
+      "from": "constitution-0001",
+      "to": "concept-0004",
+      "type": "references"
+    },
+    {
+      "from": "constitution-0001",
+      "to": "concept-0005",
+      "type": "references"
+    },
+    {
+      "from": "constitution-0001",
+      "to": "concept-0006",
+      "type": "references"
+    },
+    {
+      "from": "constitution-0001",
+      "to": "concept-0002",
+      "type": "references"
+    }
+  ]
+}
