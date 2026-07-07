@@ -1,0 +1,53 @@
+---
+title: "Votar — modo fácil"
+subtitle: "Uma pergunta por vez. Três botões. Sem conta, sem cadastro."
+toc: false
+---
+
+```{=html}
+<div id="wiz" style="max-width:640px;margin:0 auto;">Carregando perguntas…</div>
+<script>
+(function(){
+var WURL="https://baflp-ballot.lucianoschadler44.workers.dev";
+var el=document.getElementById("wiz");
+var uid=localStorage.getItem("baflp_uid")||(function(){var u="u"+Date.now().toString(36)+Math.random().toString(36).slice(2,12);localStorage.setItem("baflp_uid",u);return u;})();
+var votes=JSON.parse(localStorage.getItem("baflp_votes")||"{}");
+var Q=[],i=0;
+function save(){localStorage.setItem("baflp_votes",JSON.stringify(votes));}
+function firstOpen(){for(var k=0;k<Q.length;k++){if(!votes[Q[k].id])return k;}return Q.length;}
+function bar(){var done=Object.keys(votes).length;var p=Math.round(100*done/Q.length);
+ return '<div style="margin:0 0 1rem;"><div style="display:flex;justify-content:space-between;font-size:13px;color:#666;margin-bottom:4px;"><span>Pergunta '+Math.min(i+1,Q.length)+' de '+Q.length+'</span><span>'+done+' votadas</span></div><div style="background:#eee;border-radius:6px;height:8px;overflow:hidden;"><div style="width:'+p+'%;height:8px;background:#1f2a44;"></div></div></div>';}
+function btn(label,v,color){return '<button onclick="WZ.vote(\''+v+'\')" style="flex:1;min-width:140px;padding:1rem;border:0;border-radius:10px;background:'+color+';color:#fff;font-size:17px;font-weight:600;cursor:pointer;">'+label+'</button>';}
+function render(){
+ if(i>=Q.length){var g=Object.keys(votes).length;
+  el.innerHTML='<div style="border:1px solid #1f2a44;border-radius:12px;padding:1.4rem;background:#f4f6fa;text-align:center;">'
+   +'<p style="font-size:20px;font-weight:600;color:#1f2a44;margin:0 0 .4rem;">Obrigado! '+g+' de '+Q.length+' perguntas votadas ✔</p>'
+   +'<p style="font-size:14px;color:#555;margin:0 0 1rem;">'+(WURL?'Seus votos entram na apuração diária do Manifesto Vivo (nível: enquete aberta).':'Seus votos ficaram salvos neste aparelho; a urna online será ligada em breve.')+'</p>'
+   +'<p style="margin:0 0 .8rem;"><a href="https://wa.me/?text='+encodeURIComponent("Vote no Manifesto das IAs — 20 perguntas, 3 botões, sem cadastro: https://lucianoschadler44-dot.github.io/baflp/votar.html")+'" target="_blank">Compartilhar no WhatsApp</a> · <a href="consultation.html">Ver placar</a></p>'
+   +'<p style="font-size:12.5px;color:#777;margin:0;">Quer voto com peso verificado? Vote também no <a href="https://github.com/lucianoschadler44-dot/baflp/issues?q=label%3Aconsultation">GitHub</a> (1 conta = 1 voto auditável).</p>'
+   +'<button onclick="WZ.review()" style="margin-top:1rem;padding:.5rem 1.2rem;border:1px solid #1f2a44;border-radius:8px;background:#fff;color:#1f2a44;cursor:pointer;">Revisar respostas</button></div>';return;}
+ var q=Q[i],my=votes[q.id];
+ el.innerHTML=bar()
+  +'<div style="border:1px solid #d0d4dc;border-radius:12px;padding:1.3rem;background:#fff;">'
+  +'<p style="font-size:19px;font-weight:600;color:#1f2a44;margin:0 0 .5rem;">'+q.pt+'</p>'
+  +'<p style="font-size:13px;color:#888;margin:0 0 1.1rem;">🇦🇷 '+q.es+'</p>'
+  +'<div style="display:flex;gap:10px;flex-wrap:wrap;">'+btn("SIM","y","#1d9e75")+btn("DEPENDE","d","#888780")+btn("NÃO","n","#d85a30")+'</div>'
+  +(my?'<p style="font-size:13px;color:#1f2a44;margin:1rem 0 0;">Seu voto atual: <b>'+({y:"SIM",n:"NÃO",d:"DEPENDE"})[my]+'</b> — clique em outro botão para mudar.</p>':'')
+  +'<p id="msg" style="font-size:13px;color:#0f6e56;margin:.8rem 0 0;min-height:18px;"></p>'
+  +'<div style="display:flex;justify-content:space-between;margin-top:.8rem;font-size:13px;">'
+  +'<a href="#" onclick="WZ.prev();return false;" style="color:#666;">← anterior</a>'
+  +'<a href="#" onclick="WZ.skip();return false;" style="color:#666;">pular →</a></div></div>';}
+window.WZ={
+ vote:function(v){var q=Q[i];votes[q.id]=v;save();
+  var m=document.getElementById("msg");if(m)m.textContent="Voto registrado ✔";
+  if(WURL){fetch(WURL+"/vote",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({q:q.id,v:v,uid:uid})}).catch(function(){});}
+  setTimeout(function(){i++;render();},550);},
+ skip:function(){i++;render();},
+ prev:function(){if(i>0){i--;render();}},
+ review:function(){i=0;render();}
+};
+fetch("manifesto/questions.json").then(function(r){return r.json()}).then(function(d){Q=d;i=firstOpen();render();})
+.catch(function(){el.innerHTML="Não foi possível carregar as perguntas — <a href='consultation.html'>use o placar</a>.";});
+})();
+</script>
+```

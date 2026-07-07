@@ -11,7 +11,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q02",
@@ -22,7 +25,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q03",
@@ -33,7 +39,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q04",
@@ -44,7 +53,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q05",
@@ -55,7 +67,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q06",
@@ -66,7 +81,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q07",
@@ -77,7 +95,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q08",
@@ -88,7 +109,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q09",
@@ -99,7 +123,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q10",
@@ -110,7 +137,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q11",
@@ -121,7 +151,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q12",
@@ -132,7 +165,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q13",
@@ -143,7 +179,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q14",
@@ -154,7 +193,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q15",
@@ -165,7 +207,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q16",
@@ -176,7 +221,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q17",
@@ -187,7 +235,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q18",
@@ -198,7 +249,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q19",
@@ -209,7 +263,10 @@
    "no": 0,
    "dep": 0,
    "votes": 0,
-   "comments": 0
+   "comments": 0,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   },
   {
    "id": "Q20",
@@ -220,7 +277,10 @@
    "no": 0,
    "dep": 1,
    "votes": 1,
-   "comments": 1
+   "comments": 1,
+   "web_yes": 0,
+   "web_no": 0,
+   "web_dep": 0
   }
  ]
 }

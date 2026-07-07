@@ -1,0 +1,4 @@
+name = "baflp-ballot"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+kv_namespaces = [ { binding = "VOTES", id = "1e31aa2d12bc48f5bcb924412df36ae1" } ]

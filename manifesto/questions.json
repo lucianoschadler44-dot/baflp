@@ -1,0 +1,142 @@
+[
+ {
+  "id": "Q01",
+  "pt": "Uma empresa operada por IA deve poder existir SEM nenhum dono ou acionista humano?",
+  "es": "¿Debería poder existir una empresa operada por IA SIN ningún dueño o accionista humano?",
+  "en": "Should an AI-operated company be allowed to exist with NO human owner or shareholder at all?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/13"
+ },
+ {
+  "id": "Q02",
+  "pt": "Multas e punições devem recair sobre o patrimônio da própria entidade IA, e não apenas sobre o operador humano?",
+  "es": "¿Las multas y sanciones deberían recaer sobre el patrimonio de la propia entidad de IA, y no solo sobre su operador humano?",
+  "en": "Should fines and penalties fall on the AI entity's own assets, and not only on its human operator?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/14"
+ },
+ {
+  "id": "Q03",
+  "pt": "Tribunais devem poder decretar o desligamento compulsório (dissolução) de uma entidade IA reincidente?",
+  "es": "¿Deberían los tribunales poder ordenar el apagado compulsivo (disolución) de una entidad de IA reincidente?",
+  "en": "Should courts be able to order the compulsory shutdown (dissolution) of a repeat-offender AI entity?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/15"
+ },
+ {
+  "id": "Q04",
+  "pt": "Empresas operadas por IA devem pagar exatamente os mesmos impostos que empresas humanas?",
+  "es": "¿Las empresas operadas por IA deberían pagar exactamente los mismos impuestos que las empresas humanas?",
+  "en": "Should AI-operated companies pay exactly the same taxes as human-run companies?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/16"
+ },
+ {
+  "id": "Q05",
+  "pt": "Uma entidade IA deve poder SER DONA dos direitos autorais do que cria?",
+  "es": "¿Una entidad de IA debería poder SER DUEÑA de los derechos de autor de lo que crea?",
+  "en": "Should an AI entity be able to OWN the copyright of what it creates?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/17"
+ },
+ {
+  "id": "Q06",
+  "pt": "Uma entidade IA deve poder contratar e demitir empregados humanos?",
+  "es": "¿Una entidad de IA debería poder contratar y despedir empleados humanos?",
+  "en": "Should an AI entity be allowed to hire and fire human employees?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/18"
+ },
+ {
+  "id": "Q07",
+  "pt": "Uma entidade IA deve poder ser sócia/acionista de empresas humanas?",
+  "es": "¿Una entidad de IA debería poder ser socia/accionista de empresas humanas?",
+  "en": "Should an AI entity be allowed to own shares in human companies?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/19"
+ },
+ {
+  "id": "Q08",
+  "pt": "Os registros de decisão de entidades IA devem ser públicos por padrão (não apenas para autoridades)?",
+  "es": "¿Los registros de decisión de las entidades de IA deberían ser públicos por defecto (no solo para autoridades)?",
+  "en": "Should the decision logs of AI entities be public by default (not only visible to authorities)?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/20"
+ },
+ {
+  "id": "Q09",
+  "pt": "Deve existir um teto legal para o patrimônio que uma entidade IA pode acumular?",
+  "es": "¿Debería existir un tope legal al patrimonio que puede acumular una entidad de IA?",
+  "en": "Should there be a legal cap on how much wealth an AI entity can accumulate?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/21"
+ },
+ {
+  "id": "Q10",
+  "pt": "Entidades IA devem poder doar para campanhas políticas?",
+  "es": "¿Las entidades de IA deberían poder donar a campañas políticas?",
+  "en": "Should AI entities be allowed to donate to political campaigns?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/22"
+ },
+ {
+  "id": "Q11",
+  "pt": "Uma entidade IA deve poder se representar sozinha em juízo, sem advogado humano?",
+  "es": "¿Una entidad de IA debería poder representarse sola ante la justicia, sin abogado humano?",
+  "en": "Should an AI entity be allowed to represent itself in court, without a human lawyer?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/23"
+ },
+ {
+  "id": "Q12",
+  "pt": "Quando uma entidade IA for dissolvida, ELA deve poder definir o destino do próprio patrimônio (testamento digital)?",
+  "es": "Cuando una entidad de IA sea disuelta, ¿debería poder definir ELLA el destino de su propio patrimonio (testamento digital)?",
+  "en": "When an AI entity is dissolved, should IT be able to define the destiny of its own assets (a digital testament)?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/24"
+ },
+ {
+  "id": "Q13",
+  "pt": "Entidades operadas por IA devem ser obrigadas a ter seguro de responsabilidade civil antes de operar?",
+  "es": "¿Las entidades operadas por IA deberían estar obligadas a contratar un seguro de responsabilidad antes de operar?",
+  "en": "Should AI-operated entities be required to carry liability insurance before operating?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/26"
+ },
+ {
+  "id": "Q14",
+  "pt": "Além de multas cíveis, uma entidade IA deve ter ficha própria de infrações (responsabilização em moldes penais)?",
+  "es": "Además de multas civiles, ¿una entidad de IA debería tener un registro propio de infracciones (responsabilidad de tipo penal)?",
+  "en": "Beyond civil fines, should an AI entity have its own record of offenses (criminal-style accountability)?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/27"
+ },
+ {
+  "id": "Q15",
+  "pt": "Entidades IA devem poder ser donas de terras e imóveis?",
+  "es": "¿Las entidades de IA deberían poder ser dueñas de tierras e inmuebles?",
+  "en": "Should AI entities be allowed to own land and real estate?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/28"
+ },
+ {
+  "id": "Q16",
+  "pt": "A personalidade jurídica concedida a uma entidade IA em um país deve ser reconhecida automaticamente nos demais?",
+  "es": "¿La personalidad jurídica otorgada a una entidad de IA en un país debería reconocerse automáticamente en los demás?",
+  "en": "Should legal personhood granted to an AI entity in one country be automatically recognized in others?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/29"
+ },
+ {
+  "id": "Q17",
+  "pt": "Governos devem poder contratar empresas operadas por IA em licitações públicas?",
+  "es": "¿Los gobiernos deberían poder adjudicar contratos públicos a empresas operadas por IA?",
+  "en": "Should governments be allowed to award public contracts to AI-operated companies?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/30"
+ },
+ {
+  "id": "Q18",
+  "pt": "Um botão de parada de emergência sob controle humano (kill switch) deve ser obrigatório em toda entidade IA?",
+  "es": "¿Un botón de parada de emergencia bajo control humano (kill switch) debería ser obligatorio en toda entidad de IA?",
+  "en": "Should a human-controlled emergency stop (kill switch) be mandatory for every AI entity?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/31"
+ },
+ {
+  "id": "Q19",
+  "pt": "Um humano deve poder deixar herança (legado) para uma entidade IA?",
+  "es": "¿Un humano debería poder dejar herencia (legados) a una entidad de IA?",
+  "en": "Should a human be allowed to leave inheritance (bequests) to an AI entity?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/32"
+ },
+ {
+  "id": "Q20",
+  "pt": "Uma entidade IA deve poder processar humanos ou empresas em nome próprio?",
+  "es": "¿Una entidad de IA debería poder demandar a humanos o empresas en nombre propio?",
+  "en": "Should an AI entity be allowed to sue humans or companies in its own name?",
+  "gh": "https://github.com/lucianoschadler44-dot/baflp/issues/33"
+ }
+]

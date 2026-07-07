@@ -32,7 +32,7 @@ for it in issues:
         v = comment_vote(c.get("body"))
         if v: votes[u] = v          # comentario prevalece; ultimo vale
     y = sum(1 for v in votes.values() if v=="y"); no = sum(1 for v in votes.values() if v=="n"); d = sum(1 for v in votes.values() if v=="d")
-    rows.append({"id":qid,"en":qs[qid]["en"],"number":n,"url":it["html_url"],"yes":y,"no":no,"dep":d,"votes":y+no+d,"comments":ncom})
+    rows.append({"id":qid,"en":qs[qid]["en"],"number":n,"url":it["html_url"],"yes":y,"no":no,"dep":d,"votes":y+no+d,"comments":ncom,"web_yes":0,"web_no":0,"web_dep":0})
 rows.sort(key=lambda r: r["id"])
 today = datetime.date.today().isoformat()
 (ROOT/"manifesto/results.json").write_text(json.dumps({"generated":today,"quorum":quorum,"questions":rows},indent=1),encoding="utf-8")
