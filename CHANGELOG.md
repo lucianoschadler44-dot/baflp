@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [0.7.1] - 2026-07-07
+### Added
+- Press package: one-screen manifesto summary page (PT) and TV/radio/podcast pitch (regional-first route).
+
 ## [0.7.0] - 2026-07-06
 ### Added
 - Engagement Radar: daily snapshot (traffic, referrers, votes) with movement alerts via issue notifications; /radar page.
