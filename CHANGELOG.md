@@ -5,6 +5,11 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-07-06
+### Added
+- Engagement Radar: daily snapshot (traffic, referrers, votes) with movement alerts via issue notifications; /radar page.
+- Per-question WhatsApp/X share buttons; HN/Reddit/X-thread amplification kit.
+
 ## [0.6.0] - 2026-07-05
 ### Added
 - Distribution kit: aiOnly launch articles (PT/ES), institutional outreach letters (AR/BR, official channels only), OECD.AI submission text, trilingual share kit; press-room index updated.

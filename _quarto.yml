@@ -13,6 +13,7 @@ project:
     - "glossary.qmd"
     - "ai.qmd"
     - "consultation.qmd"
+    - "radar.qmd"
     - "manifesto.qmd"
     - "core/"
     - "institution/"
@@ -48,6 +49,10 @@ website:
         href: consultation.qmd
       - text: "Manifesto"
         href: manifesto.qmd
+      - text: "Radar"
+        href: manifesto.qmd
+      - text: "Radar"
+        href: radar.qmd
       - text: "Checklist"
         href: public-experience/decision-simulator/simulator.qmd
       - text: "Compare"
