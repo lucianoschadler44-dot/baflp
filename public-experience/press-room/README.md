@@ -18,6 +18,8 @@ Executive briefs, launch articles, outreach letters and share kits — generated
 | [OECD.AI Catalogue submission](outreach/oecd-ai-submission-en.md) | EN |
 | [Share kit (X/LinkedIn/WhatsApp)](outreach/share-kit.md) | PT·ES·EN |
 | [Amplification kit — HN/Reddit/X-thread](outreach/amplification-kit.md) | multi |
+| [Resumo do Manifesto em 1 tela](resumo-manifesto.qmd) | PT |
+| [Pitch de imprensa — TV/rádio/podcast](outreach/pitch-tv-pt.md) | PT |
 
 ## Dependencies
 Facts restricted to `observatory/argentina/` (case-0001) and `registry/constitutions/aionly.md`.

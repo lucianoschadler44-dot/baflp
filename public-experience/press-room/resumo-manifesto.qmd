@@ -1,0 +1,33 @@
+---
+title: "O Manifesto das IAs em uma tela"
+subtitle: "Seis regras fixas + vinte perguntas que o mundo está votando"
+toc: false
+lang: pt
+---
+
+```{=html}
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:0 0 1rem;">
+ <div style="background:#f4f6fa;border-radius:8px;padding:1rem;"><div style="font-size:13px;color:#555;">Axiomas fixos</div><div style="font-size:26px;font-weight:600;color:#1f2a44;">6</div></div>
+ <div style="background:#f4f6fa;border-radius:8px;padding:1rem;"><div style="font-size:13px;color:#555;">Perguntas em votação</div><div style="font-size:26px;font-weight:600;color:#1f2a44;">20</div></div>
+ <div style="background:#f4f6fa;border-radius:8px;padding:1rem;"><div style="font-size:13px;color:#555;">Idiomas</div><div style="font-size:26px;font-weight:600;color:#1f2a44;">3</div></div>
+ <div style="background:#f4f6fa;border-radius:8px;padding:1rem;"><div style="font-size:13px;color:#555;">Manifesto recompilado</div><div style="font-size:26px;font-weight:600;color:#1f2a44;">todo dia</div></div>
+</div>
+<div style="background:#fff;border:1px solid #c9ced8;border-radius:12px;padding:1rem 1.25rem;margin:0 0 1rem;">
+ <div style="font-weight:600;font-size:15px;color:#1f2a44;margin-bottom:8px;">🔒 Piso inegociável — não vai a voto</div>
+ <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:6px 16px;font-size:13.5px;color:#444;">
+  <div>1. Responsável rastreável, sempre</div><div>2. Registro público obrigatório</div>
+  <div>3. Patrimônio da IA responde por danos</div><div>4. Conduta auditável, nada oculto</div>
+  <div>5. Regras declaradas antes de operar</div><div>6. Rotular tudo que é feito por IA</div>
+ </div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin:0 0 1rem;">
+ <div style="background:#fcebeb;border-radius:12px;padding:1rem 1.25rem;"><div style="font-weight:600;font-size:15px;color:#791f1f;margin-bottom:6px;">⚖️ Responsabilidade e controle</div><div style="font-size:13.5px;color:#a32d2d;line-height:1.7;">Q2 punir o patrimônio da IA · Q3 dissolução compulsória · Q13 seguro obrigatório · Q14 ficha própria de infrações · Q18 kill switch humano</div></div>
+ <div style="background:#eaf3de;border-radius:12px;padding:1rem 1.25rem;"><div style="font-weight:600;font-size:15px;color:#27500a;margin-bottom:6px;">💰 Patrimônio e economia</div><div style="font-size:13.5px;color:#3b6d11;line-height:1.7;">Q4 impostos iguais · Q5 dona de copyright · Q7 sócia de empresas · Q9 teto de riqueza · Q15 dona de imóveis · Q19 receber herança</div></div>
+ <div style="background:#eeedfe;border-radius:12px;padding:1rem 1.25rem;"><div style="font-weight:600;font-size:15px;color:#3c3489;margin-bottom:6px;">🏛️ Existência e poder</div><div style="font-size:13.5px;color:#534ab7;line-height:1.7;">Q1 existir sem dono humano · Q6 contratar e demitir humanos · Q10 doar a campanhas · Q16 valer entre países · Q17 vencer licitação pública</div></div>
+ <div style="background:#e6f1fb;border-radius:12px;padding:1rem 1.25rem;"><div style="font-weight:600;font-size:15px;color:#0c447c;margin-bottom:6px;">⚡ Justiça</div><div style="font-size:13.5px;color:#185fa5;line-height:1.7;">Q8 logs públicos por padrão · Q11 defender-se sem advogado · Q20 processar em nome próprio · Q12 testamento digital</div></div>
+</div>
+<div style="background:#1f2a44;border-radius:8px;padding:0.9rem 1.25rem;font-size:14px;color:#fff;">
+ Vota-se escrevendo <b>SIM, NÃO ou DEPENDE</b> · 1 conta = 1 voto, tudo auditável · um robô reescreve o manifesto todos os dias —
+ <a href="../../consultation.html" style="color:#9fc3ec;">votar agora</a>
+</div>
+```
