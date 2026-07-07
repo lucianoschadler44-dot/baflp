@@ -17,6 +17,7 @@ Executive briefs, launch articles, outreach letters and share kits — generated
 | [Carta institucional — Brasil](outreach/carta-brasil-pt.md) | PT |
 | [OECD.AI Catalogue submission](outreach/oecd-ai-submission-en.md) | EN |
 | [Share kit (X/LinkedIn/WhatsApp)](outreach/share-kit.md) | PT·ES·EN |
+| [Amplification kit — HN/Reddit/X-thread](outreach/amplification-kit.md) | multi |
 
 ## Dependencies
 Facts restricted to `observatory/argentina/` (case-0001) and `registry/constitutions/aionly.md`.

@@ -1,0 +1,36 @@
+---
+title: "Engagement Radar"
+subtitle: "Is the world responding? Updated daily by automation."
+toc: false
+---
+
+> Snapshot 2026-07-07. Repo traffic covers the GitHub repository (14-day window). Site-wide analytics unlock automatically once research.schadler.tech goes live behind Cloudflare.
+
+**Stars:** 0 · **Forks:** 0 · **Watchers:** 0 · **Repo visits (14d):** 32 (1 uniques) · **Clones (14d):** 215
+
+**Consultation:** 1 votes · 1 comments across 20 ballots — [live board](consultation.qmd)
+
+::: {.callout-important appearance="simple"}
+**Movement since last snapshot:** +1 uniques14 · +1 votes · +1 comments
+:::
+
+## Where visitors come from
+
+| Referrer | Visits | Uniques |
+|---|---|---|
+| Google | 8 | 1 |
+
+## Most-viewed repo pages
+
+| Path | Views |
+|---|---|
+| /lucianoschadler44-dot/baflp | 13 |
+| /lucianoschadler44-dot/baflp/compare/feature/simulator-compare | 2 |
+| /lucianoschadler44-dot/baflp/issues | 2 |
+| /lucianoschadler44-dot/baflp/issues/33 | 2 |
+| /lucianoschadler44-dot/baflp/blob/main/api/.gitkeep | 1 |
+| /lucianoschadler44-dot/baflp/blob/main/api/README.md | 1 |
+| /lucianoschadler44-dot/baflp/commit/0f92ad198a1925c8ec30026a5b2e464d7844e080 | 1 |
+| /lucianoschadler44-dot/baflp/commit/aedf37602fb8ff6309a45fc3cf608ef04eee154d | 1 |
+| /lucianoschadler44-dot/baflp/compare/feature/press-briefs | 1 |
+| /lucianoschadler44-dot/baflp/compare/feature/tri-vote-20q | 1 |

@@ -1,37 +1,35 @@
 ---
 title: "Public Consultation"
-subtitle: "20 real questions. Vote by comment or reaction. Your voice shapes the living Manifesto."
+subtitle: "20 real questions. Vote by comment or reaction. Share on WhatsApp — no GitHub knowledge needed to spread it."
 toc: false
 ---
 
-**Two ways to vote — pick one:** 💬 write a comment starting with **SIM**, **NÃO** or **DEPENDE**
-(also YES/NO/DEPENDS · SÍ/NO/DEPENDE), **or** click the 😀 icon on the ballot and react 👍/👎/😕.
-One account = one vote; your comment prevails. Fully public and auditable. Axioms are not up for
-vote — see the [Manifesto](manifesto.qmd).
+**Two ways to vote:** 💬 comment starting with **SIM**, **NÃO** or **DEPENDE** (YES/NO/DEPENDS ·
+SÍ/NO/DEPENDE), **or** react 👍/👎/😕 via the 😀 icon. One account = one vote; comment prevails.
+Axioms are not up for vote — see the [Manifesto](manifesto.qmd) · Movement: [Radar](radar.qmd).
 
 ```{=html}
 <div id="consulta">Loading official results…</div>
 <script>
 (function(){
  var el=document.getElementById("consulta");
+ function enc(s){return encodeURIComponent(s);}
  fetch("manifesto/results.json").then(function(r){return r.json()}).then(function(data){
-   var h='<p style="font-size:.85rem;color:#666">Official tally (comments + reactions merged) — compiled '+data.generated+'. Reactions below update live.</p>';
+   var h='<p style="font-size:.85rem;color:#666">Official tally (comments + reactions merged) — compiled '+data.generated+'.</p>';
    data.questions.forEach(function(q){
      var t=q.votes||0, py=t?100*q.yes/t:0, pd=t?100*q.dep/t:0, pn=t?100*q.no/t:0;
+     var msg="Vote nessa: "+q.en+" — vote SIM/NAO/DEPENDE aqui: "+q.url;
+     var wa="https://wa.me/?text="+enc(msg);
+     var tw="https://twitter.com/intent/tweet?text="+enc(q.en+" Vote YES/NO/DEPENDS:")+"&url="+enc(q.url);
      h+='<div style="border:1px solid #d0d4dc;border-radius:8px;padding:.9rem;margin:.6rem 0">'
        +'<div style="font-weight:600;margin-bottom:.45rem">['+q.id+'] '+q.en+'</div>'
        +'<div style="display:flex;background:#eee;border-radius:6px;overflow:hidden;height:14px">'
        +'<div style="width:'+py+'%;background:#1f2a44"></div><div style="width:'+pd+'%;background:#b8b8b8"></div><div style="width:'+pn+'%;background:#8a1f1f"></div></div>'
        +'<div style="font-size:.85rem;color:#555;margin-top:.35rem">👍 '+q.yes+' · 😕 '+q.dep+' · 👎 '+q.no+' · '+t+' votes · 💬 '+q.comments
-       +' <span id="live-'+q.number+'"></span> — <a href="'+q.url+'">vote &amp; comment</a></div></div>';
+       +' — <a href="'+q.url+'">vote</a> · <a href="'+wa+'" target="_blank">WhatsApp</a> · <a href="'+tw+'" target="_blank">X</a></div></div>';
    });
    el.innerHTML=h;
-   fetch("https://api.github.com/repos/lucianoschadler44-dot/baflp/issues?labels=consultation&state=open&per_page=100")
-   .then(function(r){return r.json()}).then(function(list){ if(!Array.isArray(list))return;
-     list.forEach(function(is){var rx=is.reactions||{};var s=document.getElementById("live-"+is.number);
-       if(s) s.textContent="· live 😀: "+(rx["+1"]||0)+"/"+(rx.confused||0)+"/"+(rx["-1"]||0);});
-   }).catch(function(){});
- }).catch(function(){el.innerHTML="Results loading failed — vote directly on <a href='https://github.com/lucianoschadler44-dot/baflp/issues?q=label%3Aconsultation'>GitHub</a>.";});
+ }).catch(function(){el.innerHTML="Results loading — vote on <a href='https://github.com/lucianoschadler44-dot/baflp/issues?q=label%3Aconsultation'>GitHub</a>.";});
 })();
 </script>
 ```
