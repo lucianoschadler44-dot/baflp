@@ -5,6 +5,7 @@ project:
     - llms.txt
     - llms-full.txt
     - manifesto/results.json
+    - manifesto/questions.json
   render:
     - "index.qmd"
     - "es.qmd"
@@ -12,6 +13,7 @@ project:
     - "about.qmd"
     - "glossary.qmd"
     - "ai.qmd"
+    - "votar.qmd"
     - "consultation.qmd"
     - "radar.qmd"
     - "manifesto.qmd"
@@ -45,6 +47,8 @@ website:
         href: core/concepts/index.qmd
       - text: "Model Law"
         href: model-law/index.qmd
+      - text: "Votar"
+        href: votar.qmd
       - text: "Consultation"
         href: consultation.qmd
       - text: "Manifesto"

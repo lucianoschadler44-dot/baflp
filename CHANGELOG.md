@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [0.8.0] - 2026-07-07
+### Added
+- Easy Vote wizard (/votar): one question at a time, three large buttons, auto-advance, no account; Cloudflare Worker ballot (open web tier) merged into daily tally, clearly separated from verified GitHub tier.
+
 ## [0.7.1] - 2026-07-07
 ### Added
 - Press package: one-screen manifesto summary page (PT) and TV/radio/podcast pitch (regional-first route).

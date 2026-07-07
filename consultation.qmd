@@ -4,6 +4,8 @@ subtitle: "20 real questions. Vote by comment or reaction. Share on WhatsApp —
 toc: false
 ---
 
+<a href="votar.html" style="display:block;text-align:center;background:#1f2a44;color:#fff;padding:1rem;border-radius:10px;font-size:17px;font-weight:600;text-decoration:none;margin:0 0 1rem;">🗳️ Modo fácil: votar sem conta — 1 clique por pergunta</a>
+
 **Two ways to vote:** 💬 comment starting with **SIM**, **NÃO** or **DEPENDE** (YES/NO/DEPENDS ·
 SÍ/NO/DEPENDE), **or** react 👍/👎/😕 via the 😀 icon. One account = one vote; comment prevails.
 Axioms are not up for vote — see the [Manifesto](manifesto.qmd) · Movement: [Radar](radar.qmd).
