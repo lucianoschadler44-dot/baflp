@@ -1,5 +1,5 @@
 
-> Automated compilation — 2026-07-07. Vote by comment (SIM/NÃO/DEPENDE) or reaction (👍/👎/😕); one account = one vote, comment prevails. Quorum ≥10. Every ballot public and auditable.
+> Automated compilation — 2026-07-08. Vote by comment (SIM/NÃO/DEPENDE) or reaction (👍/👎/😕); one account = one vote, comment prevails. Quorum ≥10. Every ballot public and auditable.
 
 ## I. Non-negotiable axioms
 
@@ -78,10 +78,10 @@
 <br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/31)
 
 **Q19.** Should a human be allowed to leave inheritance (bequests) to an AI entity?
-<br>_In consultation (0/10 votes, 💬0)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/32)
+<br>_In consultation (1/10 votes, 💬2)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/32)
 
 **Q20.** Should an AI entity be allowed to sue humans or companies in its own name?
-<br>_In consultation (1/10 votes, 💬1)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/33)
+<br>_In consultation (1/10 votes, 💬2)_ · [vote here](https://github.com/lucianoschadler44-dot/baflp/issues/33)
 
 ## III. Method
 

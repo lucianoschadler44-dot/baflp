@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-07",
+ "generated": "2026-07-08",
  "quorum": 10,
  "questions": [
   {
@@ -259,11 +259,11 @@
    "en": "Should a human be allowed to leave inheritance (bequests) to an AI entity?",
    "number": 32,
    "url": "https://github.com/lucianoschadler44-dot/baflp/issues/32",
-   "yes": 0,
+   "yes": 1,
    "no": 0,
    "dep": 0,
-   "votes": 0,
-   "comments": 0,
+   "votes": 1,
+   "comments": 2,
    "web_yes": 0,
    "web_no": 0,
    "web_dep": 0
@@ -277,7 +277,7 @@
    "no": 0,
    "dep": 1,
    "votes": 1,
-   "comments": 1,
+   "comments": 2,
    "web_yes": 0,
    "web_no": 0,
    "web_dep": 0
