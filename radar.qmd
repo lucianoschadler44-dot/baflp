@@ -4,7 +4,7 @@ subtitle: "Is the world responding? Updated daily by automation."
 toc: false
 ---
 
-> Snapshot 2026-07-17. Repo traffic covers the GitHub repository (14-day window). Site-wide analytics unlock automatically once research.schadler.tech goes live behind Cloudflare.
+> Snapshot 2026-07-18. Repo traffic covers the GitHub repository (14-day window). Site-wide analytics unlock automatically once research.schadler.tech goes live behind Cloudflare.
 
 **Stars:** 1 · **Forks:** 0 · **Watchers:** 0 · **Repo visits (14d):** 0 (0 uniques) · **Clones (14d):** 0
 
