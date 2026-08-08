@@ -1,5 +1,5 @@
 
-> Automated compilation — 2026-08-07. Vote by comment (SIM/NÃO/DEPENDE) or reaction (👍/👎/😕); one account = one vote, comment prevails. Quorum ≥10. Every ballot public and auditable.
+> Automated compilation — 2026-08-08. Vote by comment (SIM/NÃO/DEPENDE) or reaction (👍/👎/😕); one account = one vote, comment prevails. Quorum ≥10. Every ballot public and auditable.
 
 ## I. Non-negotiable axioms
 
